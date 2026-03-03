@@ -7737,6 +7737,11 @@
         "src": "osmcarto",
         "importBy": "@quincylvania",
         "osmcarto": "amenity/nightclub"
+      },
+      {
+        "newId": "pixel_anchor",
+        "by": "@quincylvania",
+        "inspo": "anchor"
       }
     ]
   }
