@@ -7662,6 +7662,16 @@
         "inspo": "person_climbing_with_climbing_rope"
       },
       {
+        "newId": "bus_within_guideway",
+        "by": "@quincylvania",
+        "inspo": "bus_with_destination_display_within_guideway"
+      },
+      {
+        "newId": "bus_with_pantograph",
+        "by": "@quincylvania",
+        "inspo": "bus_with_destination_display_and_pantograph"
+      },
+      {
         "oldId": "ticket_in_slot",
         "newId": "ticket_in_slot",
         "by": "@quincylvania",
