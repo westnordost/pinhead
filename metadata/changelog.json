@@ -7660,6 +7660,15 @@
         "newId": "person_climbing",
         "by": "@quincylvania",
         "inspo": "person_climbing_with_climbing_rope"
+      },
+      {
+        "oldId": "ticket_in_slot",
+        "newId": "ticket_in_slot",
+        "by": "@quincylvania",
+        "inspo": [
+          "ticket",
+          "envelope_in_slot"
+        ]
       }
     ]
   }
