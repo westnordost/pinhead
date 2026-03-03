@@ -7697,6 +7697,16 @@
           "ampersand"
         ],
         "osmcarto": "shop/department_store"
+      },
+      {
+        "newId": "person_riding_bicycle_up_slope",
+        "by": "@dschep",
+        "inspo": "https://raw.githubusercontent.com/mapbox/maki/refs/heads/valleyofdawn/icons/mountain-bike-15.svg"
+      },
+      {
+        "newId": "person_riding_bicycle_down_slope",
+        "by": "@dschep",
+        "inspo": "person_riding_bicycle_up_slope"
       }
     ]
   }
