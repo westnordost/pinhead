@@ -7633,6 +7633,40 @@
         "by": "@quincylvania"
       },
       {
+        "oldId": "flag",
+        "newId": "flagpole_with_flag"
+      },
+      {
+        "newId": "flag",
+        "by": "@quincylvania",
+        "inspo": "flagpole_with_flag"
+      },
+      {
+        "newId": "flagstick_with_pennant",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "flagstick_with_pennant_in_hole",
+        "by": "@quincylvania",
+        "osmcarto": "leisure/golf_pin"
+      },
+      {
+        "newId": "flagstick_with_flag",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "flagstick_with_flag_in_hole",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "pennant_on_square",
+        "newId": "flagstick_with_pennant_on_square"
+      },
+      {
+        "oldId": "person_swinging_golf_club_beside_golf_pin",
+        "newId": "person_swinging_golf_club_beside_flagstick_with_pennant"
+      },
+      {
         "oldId": "waterfall",
         "newId": "waterfall_with_froth",
         "issue": "18"
@@ -7697,6 +7731,29 @@
           "ampersand"
         ],
         "osmcarto": "shop/department_store"
+      },
+      {
+        "newId": "music_notes_eighth",
+        "src": "osmcarto",
+        "importBy": "@quincylvania",
+        "osmcarto": "amenity/nightclub"
+      },
+      {
+        "newId": "pixel_anchor",
+        "by": "@quincylvania",
+        "inspo": "anchor"
+      },
+      {
+        "newId": "person_riding_bicycle_up_uneven_slope",
+        "src": "https://raw.githubusercontent.com/mapbox/maki/refs/heads/valleyofdawn/icons/mountain-bike-15.svg",
+        "importBy": "@dschep",
+        "issue": "9"
+      },
+      {
+        "newId": "person_riding_bicycle_down_uneven_slope",
+        "by": "@dschep",
+        "inspo": "person_riding_bicycle_up_uneven_slope",
+        "issue": "9"
       },
       {
         "newId": "cargobike",
