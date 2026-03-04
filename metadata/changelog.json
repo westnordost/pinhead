@@ -7744,14 +7744,16 @@
         "inspo": "anchor"
       },
       {
-        "newId": "person_riding_bicycle_up_slope",
-        "by": "@dschep",
-        "inspo": "https://raw.githubusercontent.com/mapbox/maki/refs/heads/valleyofdawn/icons/mountain-bike-15.svg"
+        "newId": "person_riding_bicycle_up_uneven_slope",
+        "src": "https://raw.githubusercontent.com/mapbox/maki/refs/heads/valleyofdawn/icons/mountain-bike-15.svg",
+        "importBy": "@dschep",
+        "issue": "9"
       },
       {
-        "newId": "person_riding_bicycle_down_slope",
+        "newId": "person_riding_bicycle_down_uneven_slope",
         "by": "@dschep",
-        "inspo": "person_riding_bicycle_up_slope"
+        "inspo": "person_riding_bicycle_up_uneven_slope",
+        "issue": "9"
       }
     ]
   }
