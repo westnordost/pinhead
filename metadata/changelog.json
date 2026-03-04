@@ -7704,11 +7704,19 @@
       },
       {
         "newId": "cargobike_on_parking_line",
-        "by": "@dschep"
+        "by": "@dschep",
+        "inspo": [
+          "cargobike",
+          "parking_line"
+        ]
       },
       {
         "newId": "cargobike_in_parking_structure",
-        "by": "@dschep"
+        "by": "@dschep",
+        "inspo": [
+          "cargobike",
+          "parking_structure"
+        ]
       }
     ]
   }
