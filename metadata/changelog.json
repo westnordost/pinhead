@@ -7827,6 +7827,14 @@
         "nps": "visitor-center"
       },
       {
+        "newId": "euro",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "car_with_euro",
+        "by": "@quincylvania"
+      },
+      {
         "oldId": "campsite",
         "newId": "campsite",
         "by": "@quincylvania",
@@ -7834,6 +7842,10 @@
       },
       {
         "newId": "campsite_with_dollar",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "campsite_with_euro",
         "by": "@quincylvania"
       },
       {
@@ -7854,6 +7866,10 @@
       },
       {
         "newId": "campsite_tipi_style_with_dollar",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "campsite_tipi_style_with_euro",
         "by": "@quincylvania"
       },
       {
