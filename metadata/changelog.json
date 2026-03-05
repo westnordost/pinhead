@@ -7803,6 +7803,14 @@
         "issue": "53"
       },
       {
+        "newId": "campsite_with_dollar",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "campsite_with_canoe",
+        "by": "@quincylvania"
+      },
+      {
         "newId": "campsites",
         "by": "@quincylvania",
         "issue": "53",
