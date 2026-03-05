@@ -953,8 +953,7 @@
         "opentrailmap": [
           "campground",
           "campsite"
-        ],
-        "osmcarto": "tourism/camping"
+        ]
       },
       {
         "newId": "can",
@@ -7779,7 +7778,7 @@
   },
   {
     "majorVersion": "11",
-    "date": "",
+    "date": "2026-03-05",
     "iconChanges": [
       {
         "newId": "house_with_flag_and_info_i",
@@ -7789,6 +7788,29 @@
           "briefcase_with_info_i",
           "https://raw.githubusercontent.com/nationalparkservice/symbol-library/89fe4d74d1017bba51bffab0eb458df084a21f82/src/standalone/visitor-center-black-22.svg"
         ]
+      }
+      {
+        "oldId": "campsite",
+        "newId": "campsite",
+        "by": "@quincylvania",
+        "issue": "53"
+      },
+      {
+        "newId": "campsites",
+        "by": "@quincylvania",
+        "issue": "53",
+        "nps": "campground"
+      },
+      {
+        "newId": "campsite_tipi_style",
+        "by": "@quincylvania",
+        "issue": "52",
+        "osmcarto": "tourism/camping"
+      },
+      {
+        "newId": "campsites_tipi_style",
+        "by": "@quincylvania",
+        "issue": "52"
       }
     ]
   }
