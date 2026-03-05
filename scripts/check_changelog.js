@@ -213,7 +213,7 @@ function printTextForChangelog(changelog) {
     console.log('### Deleted icons');
     console.log('');
     deletedIcons.forEach(iconChange => {
-      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> Remove \`${iconChange.oldId}\``);
+      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> Remove \`${iconChange.oldId}\`` + issueLinks(iconChange));
     });
     console.log('');
   }
@@ -223,9 +223,9 @@ function printTextForChangelog(changelog) {
     addedIcons.forEach(iconChange => {
       let str = `- <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> Add \`${iconChange.newId}\``;
       if (iconChange.by) {
-        str += ` by [${iconChange.by}](https://github.com/${iconChange.by.slice(1)})`;
+        str += ' by ' + stringArray(iconChange.by).map(by => `[${by}](https://github.com/${by.slice(1)})`).join(', ');
       }
-      console.log(str);
+      console.log(str + issueLinks(iconChange));
     });
     console.log('');
   }
@@ -233,7 +233,7 @@ function printTextForChangelog(changelog) {
     console.log('### Renamed and redesigned icons');
     console.log('');
     renamedAndRedesignedIcons.forEach(iconChange => {
-      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> \`${iconChange.oldId}\` -> <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.newId}\``);
+      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> \`${iconChange.oldId}\` -> <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.newId}\`` + issueLinks(iconChange));
     });
     console.log('');
   }
@@ -241,7 +241,7 @@ function printTextForChangelog(changelog) {
     console.log('### Redesigned icons');
     console.log('');
     redesignedIcons.forEach(iconChange => {
-      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> -> <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.newId}\``);
+      console.log(`- <img src="https://pinhead.ink/v${oldV}/${iconChange.oldId}.svg" width="15px"/> -> <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.newId}\`` + issueLinks(iconChange));
     });
     console.log('');
   }
@@ -249,9 +249,17 @@ function printTextForChangelog(changelog) {
     console.log('### Renamed icons');
     console.log('');
     renamedIcons.forEach(iconChange => {
-      console.log(`- <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.oldId}\` -> \`${iconChange.newId}\``);
+      console.log(`- <img src="https://pinhead.ink/v${newV}/${iconChange.newId}.svg" width="15px"/> \`${iconChange.oldId}\` -> \`${iconChange.newId}\`` + issueLinks(iconChange));
     });
     console.log('');
+  }
+
+  function issueLinks(iconChange) {
+    if (iconChange.issue || iconChange.pr) {
+      const issues = (iconChange.pr ? stringArray(iconChange.pr) : []).concat(iconChange.issue ? stringArray(iconChange.issue) : [])
+      return ' (' + issues.map(issue => `[#${issue}](https://github.com/waysidemapping/pinhead/issues/${issue})`).join(', ') + ')';
+    }
+    return '';
   }
 }
 
