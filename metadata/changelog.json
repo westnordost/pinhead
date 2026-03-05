@@ -7862,6 +7862,14 @@
         "issue": "52"
       },
       {
+        "newId": "mobile_phone_with_keypad_and_antenna_beside_mobile_phone_with_touchscreen_and_antenna",
+        "by": "@quincylvania",
+        "inspo": [
+          "mobile_phone_with_keypad_and_antenna",
+          "mobile_phone_with_touchscreen_and_antenna"
+        ]
+      },
+      {
         "oldId": "venus",
         "newId": "venus",
         "by": "@quincylvania"
