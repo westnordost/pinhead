@@ -184,7 +184,7 @@ function checkIcons() {
         // suspicious attributes
         const suspiciousAttrs = node.attributes
           .map(attr => attr.name)
-          .filter(name => !attributesForShape.concat(['fill', 'id', 'fill-rule', 'stroke', 'transform']).includes(name));
+          .filter(name => !attributesForShape.concat(['fill', 'id', 'fill-rule', 'stroke', 'transform', 'opacity']).includes(name));
 
         if (suspiciousAttrs.length) {
           console.warn(chalk.yellow('Warning - Suspicious attributes on ' + node.nodeName + ': ' + suspiciousAttrs));
