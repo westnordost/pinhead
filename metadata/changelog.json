@@ -7808,6 +7808,14 @@
         "issue": "52"
       },
       {
+        "newId": "bowling_pin",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "bowling_ball",
+        "by": "@quincylvania"
+      },
+      {
         "newId": "house_with_flag_and_info_i",
         "by": "@dschep",
         "inspo": [
