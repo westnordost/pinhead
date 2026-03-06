@@ -144,7 +144,11 @@ function validateChangelog() {
           delete iconsById[iconChange.oldId];
         }
       }
-      if (iconChange.newId) {
+      if (iconChange.newId && iconChange.newId !== iconChange.oldId) {
+        if (iconsById[iconChange.newId]) {
+          console.error(`Duplicate changelog entry for icon "${iconChange.newId}" in version ${v}`)
+          return;
+        }
         iconsById[iconChange.newId] = true;
       }
     }
