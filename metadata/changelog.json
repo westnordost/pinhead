@@ -7968,5 +7968,21 @@
         "inspo": "bowling_ball"
       }
     ]
+  },
+  {
+    "majorVersion": "12",
+    "date": "2026-03-06",
+    "iconChanges": [
+      {
+        "newId": "target_with_archery_arrow_at_bullseye",
+        "by": "@westnordost",
+        "pr": "67"
+      },
+      {
+        "newId": "target",
+        "by": "@quincylvania",
+        "inspo": "target_with_archery_arrow_at_bullseye"
+      }
+    ]
   }
 ]
