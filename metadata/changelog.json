@@ -7980,8 +7980,43 @@
       },
       {
         "newId": "target",
-        "by": "@quincylvania",
+        "by": [
+          "@westnordost",
+          "@quincylvania"
+        ],
         "inspo": "target_with_archery_arrow_at_bullseye"
+      },
+      {
+        "newId": "person_carrying_ski",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_ski_and_ski_poles",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_skis",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_skis_and_ski_poles",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
       }
     ]
   }
