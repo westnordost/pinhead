@@ -8206,15 +8206,32 @@
     "date": "2026-03-07",
     "iconChanges": [
       {
-        "newId": "info_i_terminal",
+        "oldId": "app_terminal",
+        "newId": "digital_totem_with_apps"
+      },
+      {
+        "newId": "digital_totem",
+        "by": "@quincylvania",
+        "inspo": "digital_totem_with_apps"
+      },
+      {
+        "newId": "digital_totem_with_info_i",
         "by": "@dschep",
         "inspo": [
-          "app_terminal",
+          "digital_totem_with_apps",
           "briefcase_with_info_i",
           "https://raw.githubusercontent.com/openstreetmap-carto/openstreetmap-carto/40820143374b5550fb294cfc754db8ca662094b0/symbols/tourism/terminal.svg"
         ],
         "pr": "74",
         "osmcarto": "tourism/terminal"
+      },
+      {
+        "newId": "digital_totem_with_wifi",
+        "by": "@quincylvania",
+        "inspo": [
+          "digital_totem_with_apps",
+          "wifi"
+        ]
       },
       {
         "newId": "pound",
