@@ -221,9 +221,16 @@ async function setupPage(pageData) {
                 'download'
               ),
             new Chainable('a')
+              .setAttribute('target', `_blank`)
               .setAttribute('href', `https://github.com/waysidemapping/pinhead/blob/v${version}/icons/${(icon.srcdir ? icon.srcdir + '/' : '') + iconId}.svg`)
               .append(
                 'github'
+              ),
+            new Chainable('a')
+              .setAttribute('target', `_blank`)
+              .setAttribute('href', `https://commons.wikimedia.org/wiki/File:${iconId.slice(0, 1).toUpperCase()}${iconId.slice(1)}_Pinhead_icon.svg`)
+              .append(
+                'commons'
               )
           )
       ),

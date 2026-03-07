@@ -7980,9 +7980,64 @@
       },
       {
         "newId": "target",
-        "by": "@quincylvania",
+        "by": [
+          "@westnordost",
+          "@quincylvania"
+        ],
         "inspo": "target_with_archery_arrow_at_bullseye"
       },
+      {
+        "newId": "life_ring",
+        "by": "@westnordost",
+        "issue": "68"
+      },
+      {
+        "newId": "person_carrying_ski",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_ski_and_ski_poles",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_skis",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "person_carrying_skis_and_ski_poles",
+        "by": [
+          "@ycouble",
+          "@quincylvania"
+        ],
+        "issue": "69"
+      },
+      {
+        "newId": "three_inch_floppy_disk",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "pixel_circle_with_dot",
+        "by": "@quincylvania",
+        "inspo": "circle_with_dot"
+      }
+    ]
+  },
+  {
+    "majorVersion": "13",
+    "date": "",
+    "iconChanges": [
       {
         "newId": "info_i_terminal",
         "by": "@dschep",

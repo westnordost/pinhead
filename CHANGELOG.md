@@ -1,5 +1,33 @@
 # Changelog
 
+## [12.0.0] - 2026-03-06
+
+⚠️ This major release contains new icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
+
+### Distribution changes
+
+- Pinhead icons are now synced to Wikimedia Commons ([#65](https://github.com/waysidemapping/pinhead/issues/65))
+
+### Added icons
+
+Add target and life ring icons. Thank you to new Pinhead contributor [@westnordost](https://github.com/westnordost)!
+
+- <img src="https://pinhead.ink/v12/target_with_archery_arrow_at_bullseye.svg" width="15px"/> Add `target_with_archery_arrow_at_bullseye` by [@westnordost](https://github.com/westnordost) ([#67](https://github.com/waysidemapping/pinhead/issues/67))
+- <img src="https://pinhead.ink/v12/target.svg" width="15px"/> Add `target` by [@westnordost](https://github.com/westnordost), [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v12/life_ring.svg" width="15px"/> Add `life_ring` by [@westnordost](https://github.com/westnordost) ([#68](https://github.com/waysidemapping/pinhead/issues/68))
+
+Add icons of person carrying skis based on a design by new contributor [@ycouble](https://github.com/ycouble)! Thank you!
+
+- <img src="https://pinhead.ink/v12/person_carrying_ski.svg" width="15px"/> Add `person_carrying_ski` by [@ycouble](https://github.com/ycouble), [@quincylvania](https://github.com/quincylvania) ([#69](https://github.com/waysidemapping/pinhead/issues/69))
+- <img src="https://pinhead.ink/v12/person_carrying_ski_and_ski_poles.svg" width="15px"/> Add `person_carrying_ski_and_ski_poles` by [@ycouble](https://github.com/ycouble), [@quincylvania](https://github.com/quincylvania) ([#69](https://github.com/waysidemapping/pinhead/issues/69))
+- <img src="https://pinhead.ink/v12/person_carrying_skis.svg" width="15px"/> Add `person_carrying_skis` by [@ycouble](https://github.com/ycouble), [@quincylvania](https://github.com/quincylvania) ([#69](https://github.com/waysidemapping/pinhead/issues/69))
+- <img src="https://pinhead.ink/v12/person_carrying_skis_and_ski_poles.svg" width="15px"/> Add `person_carrying_skis_and_ski_poles` by [@ycouble](https://github.com/ycouble), [@quincylvania](https://github.com/quincylvania) ([#69](https://github.com/waysidemapping/pinhead/issues/69))
+
+Add icons:
+
+- <img src="https://pinhead.ink/v12/three_inch_floppy_disk.svg" width="15px"/> Add `three_inch_floppy_disk` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v12/pixel_circle_with_dot.svg" width="15px"/> Add `pixel_circle_with_dot` by [@quincylvania](https://github.com/quincylvania)
+
 ## [11.0.0] - 2026-03-05
 
 ⚠️ This major release contains new, redesigned, and renamed icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
