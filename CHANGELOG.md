@@ -1,5 +1,85 @@
 # Changelog
 
+## [13.0.0] - 2026-03-07
+
+⚠️ This major release contains new, renamed, and redesigned icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
+
+### Renamed icons
+
+- <img src="https://pinhead.ink/v13/digital_totem_with_apps.svg" width="15px"/> `app_terminal` -> `digital_totem_with_apps`
+- <img src="https://pinhead.ink/v13/bifold_map_with_dotted_line_to_x.svg" width="15px"/> `treasure_map` -> `bifold_map_with_dotted_line_to_x`
+
+### Added icons
+
+Add "digital totem" icons:
+
+- <img src="https://pinhead.ink/v13/digital_totem_with_info_i.svg" width="15px"/> Add `digital_totem_with_info_i` by [@dschep](https://github.com/dschep) ([#74](https://github.com/waysidemapping/pinhead/issues/74))
+- <img src="https://pinhead.ink/v13/digital_totem.svg" width="15px"/> Add `digital_totem` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/digital_totem_with_wifi.svg" width="15px"/> Add `digital_totem_with_wifi` by [@quincylvania](https://github.com/quincylvania)
+
+Add icons for pounds sterling sign:
+
+- <img src="https://pinhead.ink/v13/pound.svg" width="15px"/> Add `pound` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/car_with_pound.svg" width="15px"/> Add `car_with_pound` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/campsite_with_pound.svg" width="15px"/> Add `campsite_with_pound` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/tipi_campsite_with_pound.svg" width="15px"/> Add `tipi_campsite_with_pound` by [@quincylvania](https://github.com/quincylvania)
+
+Integrate [princesse](https://github.com/Viglino/map-font-symbols/tree/main/princesse) and [pirate](https://github.com/Viglino/map-font-symbols/tree/main/pirate) map icons by [@Viglino](https://github.com/Viglino) (CC0):
+
+- <img src="https://pinhead.ink/v13/castle_tower_with_battlement_and_spire_and_pennon.svg" width="15px"/> Add `castle_tower_with_battlement_and_spire_and_pennon` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_with_battlements.svg" width="15px"/> Add `castle_with_battlements` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_with_battlements_and_spires.svg" width="15px"/> Add `castle_with_battlements_and_spires` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_with_spires.svg" width="15px"/> Add `castle_with_spires` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_gate_with_battlements_and_spires.svg" width="15px"/> Add `castle_gate_with_battlements_and_spires` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_gate_with_battlements.svg" width="15px"/> Add `castle_gate_with_battlements` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/castle_with_battlements_and_turret.svg" width="15px"/> Add `castle_with_battlements_and_turret` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/star_wand_with_stardust.svg" width="15px"/> Add `star_wand_with_stardust` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/pumpkin_shaped_carriage.svg" width="15px"/> Add `pumpkin_shaped_carriage` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/heart_shaped_carriage.svg" width="15px"/> Add `heart_shaped_carriage` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/veiled_hennin_with_star.svg" width="15px"/> Add `veiled_hennin_with_star` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/wizards_hat_with_star.svg" width="15px"/> Add `wizards_hat_with_star` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/astrologers_hat.svg" width="15px"/> Add `astrologers_hat` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/pumpkin_under_stardust.svg" width="15px"/> Add `pumpkin_under_stardust` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/pumpkin.svg" width="15px"/> Add `pumpkin` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/cast_iron_key_with_heart_shaped_handle.svg" width="15px"/> Add `cast_iron_key_with_heart_shaped_handle` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/crown.svg" width="15px"/> Add `crown` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/frog_with_cartoon_eyes_and_open_mouth.svg" width="15px"/> Add `frog_with_cartoon_eyes_and_open_mouth` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/genie_lamp_with_stardust.svg" width="15px"/> Add `genie_lamp_with_stardust` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/unicorn_rearing.svg" width="15px"/> Add `unicorn_rearing` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/unicorn_head.svg" width="15px"/> Add `unicorn_head` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/winged_horse_rearing.svg" width="15px"/> Add `winged_horse_rearing` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/fancy_mirror_with_reflection_and_stars.svg" width="15px"/> Add `fancy_mirror_with_reflection_and_stars` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/butterfly_with_stars_and_dots.svg" width="15px"/> Add `butterfly_with_stars_and_dots` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/butterfly.svg" width="15px"/> Add `butterfly` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/sailing_ship_in_water.svg" width="15px"/> Add `sailing_ship_in_water` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/four_legged_octopus_with_cartoon_eyes.svg" width="15px"/> Add `four_legged_octopus_with_cartoon_eyes` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/four_legged_octopus.svg" width="15px"/> Add `four_legged_octopus` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/four_legged_squid_with_cartoon_eyes.svg" width="15px"/> Add `four_legged_squid_with_cartoon_eyes` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/four_legged_squid.svg" width="15px"/> Add `four_legged_squid` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/parrot.svg" width="15px"/> Add `parrot` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/shark_dorsal_fin_in_waters.svg" width="15px"/> Add `shark_dorsal_fin_in_waters` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/cartoon_bomb_with_lit_fuse.svg" width="15px"/> Add `cartoon_bomb_with_lit_fuse` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/cartoon_cannon_with_lit_fuse.svg" width="15px"/> Add `cartoon_cannon_with_lit_fuse` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/ships_wheel.svg" width="15px"/> Add `ships_wheel` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/rolled_paper_in_bottle.svg" width="15px"/> Add `rolled_paper_in_bottle` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/rolled_paper_in_bottle_in_water.svg" width="15px"/> Add `rolled_paper_in_bottle_in_water` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/treasure_map.svg" width="15px"/> Add `treasure_map` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/treasure_map_x.svg" width="15px"/> Add `treasure_map_x` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/open_chest_with_treasure_and_sparkles.svg" width="15px"/> Add `open_chest_with_treasure_and_sparkles` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/flintlock_pistol.svg" width="15px"/> Add `flintlock_pistol` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/barrel_with_bunghole.svg" width="15px"/> Add `barrel_with_bunghole` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/spyglass.svg" width="15px"/> Add `spyglass` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/tricorne_hat_with_skull.svg" width="15px"/> Add `tricorne_hat_with_skull` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/skull_above_crossed_bones.svg" width="15px"/> Add `skull_above_crossed_bones` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/skull_above_crossed_cutlasses.svg" width="15px"/> Add `skull_above_crossed_cutlasses` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/ragged_flag_with_skull.svg" width="15px"/> Add `ragged_flag_with_skull` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/skull_rock_outline.svg" width="15px"/> Add `skull_rock_outline` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/skull_rock.svg" width="15px"/> Add `skull_rock` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v13/round_bottomed_flask.svg" width="15px"/> Add `round_bottomed_flask` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/coconut_palm_tree.svg" width="15px"/> Add `coconut_palm_tree` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+- <img src="https://pinhead.ink/v13/coconut_palm_tree_on_hill_in_water.svg" width="15px"/> Add `coconut_palm_tree_on_hill_in_water` by [@viglino](https://github.com/viglino) ([#81](https://github.com/waysidemapping/pinhead/issues/81))
+
+
 ## [12.0.0] - 2026-03-06
 
 ⚠️ This major release contains new icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
