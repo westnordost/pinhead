@@ -8678,6 +8678,42 @@
     "date": "2026-03-08",
     "iconChanges": [
       {
+        "newId": "dog",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "dog_wearing_collar",
+        "newId": "dog_wearing_collar",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "dog_wearing_collar_on_leash",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "dog_wearing_harness",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "dog_wearing_harness_on_leash",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "comb_and_dog_wearing_collar",
+        "newId": "comb_and_dog_wearing_collar",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "dog_wearing_collar_in_shelter",
+        "newId": "dog_wearing_collar_in_shelter",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "mounted_slotted_dispenser_with_dog_wearing_collar",
+        "newId": "mounted_slotted_dispenser_with_dog_wearing_collar",
+        "by": "@quincylvania"
+      },
+      {
         "newId": "turtle_shell_top",
         "by": "@quincylvania",
         "inspo": "turtle_top"
