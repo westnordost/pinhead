@@ -8802,6 +8802,21 @@
         "inspo": "car_with_dollar"
       },
       {
+        "newId": "sedan_with_tag",
+        "by": "@quincylvania",
+        "inspo": "sedan"
+      },
+      {
+        "newId": "station_wagon_with_tag",
+        "by": "@quincylvania",
+        "inspo": "station_wagon"
+      },
+      {
+        "newId": "pickup_truck_with_tag",
+        "by": "@quincylvania",
+        "inspo": "pickup_truck"
+      },
+      {
         "newId": "bicycle_with_tag",
         "by": "@quincylvania",
         "inspo": "bicycle_and_key"
