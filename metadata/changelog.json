@@ -8964,6 +8964,83 @@
         "inspo": "compact_box_truck"
       },
       {
+        "newId": "water_tap",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_tap_with_droplet",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "water_glass_under_faucet",
+        "newId": "water_tap_with_drinking_glass",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_tap_with_handle",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "water_faucet_with_droplet",
+        "newId": "water_tap_with_handle_and_droplet",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_tap_with_handle_and_drinking_glass",
+        "by": "@quincylvania",
+        "issue": "52"
+      },
+      {
+        "oldId": "water_tap",
+        "newId": "water_standpipe_with_handle",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_standpipe_with_handle_and_droplet",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "water_glass_under_water_tap",
+        "newId": "water_standpipe_with_handle_and_drinking_glass",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "water_tap_with_pump_handle",
+        "newId": "water_standpipe_with_pump_handle",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_standpipe_with_pump_handle_and_droplet",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_standpipe_with_pump_handle_and_drinking_glass",
+        "by": "@quincylvania"
+      },
+      {
+        "oldId": "water_tap_with_motor",
+        "newId": "water_standpipe_with_motor_and_handle",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_standpipe_with_motor_and_handle_and_droplet",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_standpipe_with_motor_and_handle_and_drinking_glass",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "water_pipe_return_bend_with_handle",
+        "by": "@quincylvania",
+        "inspo": "water_pipe_return_bend_with_motor_and_handle"
+      },
+      {
+        "oldId": "water_pipe_with_motor",
+        "newId": "water_pipe_return_bend_with_motor_and_handle",
+        "by": "@quincylvania"
+      },
+      {
         "newId": "pixel_ape_face",
         "by": "@quincylvania"
       },
