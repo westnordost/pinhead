@@ -8921,5 +8921,33 @@
         "by": "@quincylvania"
       }
     ]
+  },
+  {
+    "majorVersion": "15",
+    "date": "2026-03-11",
+    "iconChanges": [
+      {
+        "newId": "crystal_ball_on_sphere_stand",
+        "by": "@ooosssay",
+        "pr": "106"
+      },
+      {
+        "newId": "piano_keys",
+        "by": "@ooosssay",
+        "pr": "103"
+      },
+      {
+        "newId": "hand_dropping_circles",
+        "by": "@ooosssay",
+        "inspo": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Conventional_Toll_Plaza_Advance_Sign_2.svg",
+        "pr": "103"
+      },
+      {
+        "newId": "hand_dropping_circles_onto_surface",
+        "by": "@ooosssay",
+        "inspo": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Conventional_Toll_Plaza_Advance_Sign_2.svg",
+        "pr": "103"
+      }
+    ]
   }
 ]
