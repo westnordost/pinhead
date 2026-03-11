@@ -1,5 +1,119 @@
 # Changelog
 
+## [15.15.0] - 2026-03-11
+
+### Renamed and redesigned icons
+
+- <img src="https://pinhead.ink/v14/water_glass_under_faucet.svg" width="15px"/> `water_glass_under_faucet` -> <img src="https://pinhead.ink/v15/water_tap_with_drinking_glass.svg" width="15px"/> `water_tap_with_drinking_glass`
+- <img src="https://pinhead.ink/v14/water_faucet_with_droplet.svg" width="15px"/> `water_faucet_with_droplet` -> <img src="https://pinhead.ink/v15/water_tap_with_handle_and_droplet.svg" width="15px"/> `water_tap_with_handle_and_droplet`
+- <img src="https://pinhead.ink/v14/water_tap.svg" width="15px"/> `water_tap` -> <img src="https://pinhead.ink/v15/water_standpipe_with_handle.svg" width="15px"/> `water_standpipe_with_handle`
+- <img src="https://pinhead.ink/v14/water_glass_under_water_tap.svg" width="15px"/> `water_glass_under_water_tap` -> <img src="https://pinhead.ink/v15/water_standpipe_with_handle_and_drinking_glass.svg" width="15px"/> `water_standpipe_with_handle_and_drinking_glass`
+- <img src="https://pinhead.ink/v14/water_tap_with_pump_handle.svg" width="15px"/> `water_tap_with_pump_handle` -> <img src="https://pinhead.ink/v15/water_standpipe_with_pump_handle.svg" width="15px"/> `water_standpipe_with_pump_handle`
+- <img src="https://pinhead.ink/v14/water_tap_with_motor.svg" width="15px"/> `water_tap_with_motor` -> <img src="https://pinhead.ink/v15/water_standpipe_with_motor_and_handle.svg" width="15px"/> `water_standpipe_with_motor_and_handle`
+- <img src="https://pinhead.ink/v14/water_pipe_with_motor.svg" width="15px"/> `water_pipe_with_motor` -> <img src="https://pinhead.ink/v15/water_pipe_return_bend_with_motor_and_handle.svg" width="15px"/> `water_pipe_return_bend_with_motor_and_handle`
+
+### Added icons
+
+Add icons by new contributor [@ooosssay](https://github.com/ooosssay). Thanks, @ooosssay!
+
+- <img src="https://pinhead.ink/v15/crystal_ball_on_sphere_stand.svg" width="15px"/> Add `crystal_ball_on_sphere_stand` by [@ooosssay](https://github.com/ooosssay) ([#106](https://github.com/waysidemapping/pinhead/issues/106))
+- <img src="https://pinhead.ink/v15/piano_keys.svg" width="15px"/> Add `piano_keys` by [@ooosssay](https://github.com/ooosssay) ([#103](https://github.com/waysidemapping/pinhead/issues/103))
+- <img src="https://pinhead.ink/v15/hand_dropping_circles.svg" width="15px"/> Add `hand_dropping_circles` by [@ooosssay](https://github.com/ooosssay) ([#103](https://github.com/waysidemapping/pinhead/issues/103))
+- <img src="https://pinhead.ink/v15/hand_dropping_circles_into_container.svg" width="15px"/> Add `hand_dropping_circles_into_container` by [@ooosssay](https://github.com/ooosssay) ([#103](https://github.com/waysidemapping/pinhead/issues/103))
+
+Add assorted icons:
+
+- <img src="https://pinhead.ink/v15/mounted_slotted_dispenser.svg" width="15px"/> Add `mounted_slotted_dispenser` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/mounted_slotted_dispenser_with_poo_pile.svg" width="15px"/> Add `mounted_slotted_dispenser_with_poo_pile` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/antler.svg" width="15px"/> Add `antler` by [@quincylvania](https://github.com/quincylvania) ([#86](https://github.com/waysidemapping/pinhead/issues/86))
+- <img src="https://pinhead.ink/v15/bone.svg" width="15px"/> Add `bone` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/jack_o_lantern.svg" width="15px"/> Add `jack_o_lantern` by [@quincylvania](https://github.com/quincylvania) ([#83](https://github.com/waysidemapping/pinhead/issues/83))
+- <img src="https://pinhead.ink/v15/compact_box_truck_with_box_peak.svg" width="15px"/> Add `compact_box_truck_with_box_peak` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/sub_sandwich_with_steam.svg" width="15px"/> Add `sub_sandwich_with_steam` by [@quincylvania](https://github.com/quincylvania) ([#101](https://github.com/waysidemapping/pinhead/issues/101))
+- <img src="https://pinhead.ink/v15/vinyl_record.svg" width="15px"/> Add `vinyl_record` by [@quincylvania](https://github.com/quincylvania) ([#70](https://github.com/waysidemapping/pinhead/issues/70))
+- <img src="https://pinhead.ink/v15/winding_way_narrow.svg" width="15px"/> Add `winding_way_narrow` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/winding_way.svg" width="15px"/> Add `winding_way` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/winding_way_wide.svg" width="15px"/> Add `winding_way_wide` by [@quincylvania](https://github.com/quincylvania)
+
+Add pixel icons:
+
+- <img src="https://pinhead.ink/v15/pixel_ape_face.svg" width="15px"/> Add `pixel_ape_face` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/pixel_three_inch_floppy_disk.svg" width="15px"/> Add `pixel_three_inch_floppy_disk` by [@quincylvania](https://github.com/quincylvania)
+
+Add more water access icon variants:
+
+- <img src="https://pinhead.ink/v15/water_tap.svg" width="15px"/> Add `water_tap` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_tap_with_droplet.svg" width="15px"/> Add `water_tap_with_droplet` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_tap_with_handle.svg" width="15px"/> Add `water_tap_with_handle` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_tap_with_handle_and_drinking_glass.svg" width="15px"/> Add `water_tap_with_handle_and_drinking_glass` by [@quincylvania](https://github.com/quincylvania) ([#52](https://github.com/waysidemapping/pinhead/issues/52))
+- <img src="https://pinhead.ink/v15/water_standpipe_with_handle_and_droplet.svg" width="15px"/> Add `water_standpipe_with_handle_and_droplet` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_standpipe_with_pump_handle_and_droplet.svg" width="15px"/> Add `water_standpipe_with_pump_handle_and_droplet` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_standpipe_with_pump_handle_and_drinking_glass.svg" width="15px"/> Add `water_standpipe_with_pump_handle_and_drinking_glass` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_standpipe_with_motor_and_handle_and_droplet.svg" width="15px"/> Add `water_standpipe_with_motor_and_handle_and_droplet` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_standpipe_with_motor_and_handle_and_drinking_glass.svg" width="15px"/> Add `water_standpipe_with_motor_and_handle_and_drinking_glass` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v15/water_pipe_return_bend_with_handle.svg" width="15px"/> Add `water_pipe_return_bend_with_handle` by [@quincylvania](https://github.com/quincylvania)
+
+Import assorted [Health Icons](https://github.com/resolvetosavelives/healthicons) ([CC0](https://healthicons.org/about#license)):
+
+- <img src="https://pinhead.ink/v15/peace_sign.svg" width="15px"/> Add `peace_sign` ([#107](https://github.com/waysidemapping/pinhead/issues/107), [#75](https://github.com/waysidemapping/pinhead/issues/75))
+- <img src="https://pinhead.ink/v15/biohazard_symbol.svg" width="15px"/> Add `biohazard_symbol` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/video_camera_symbol.svg" width="15px"/> Add `video_camera_symbol` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/mosquito.svg" width="15px"/> Add `mosquito` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/antibody.svg" width="15px"/> Add `antibody` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/anus.svg" width="15px"/> Add `anus` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/arm.svg" width="15px"/> Add `arm` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/bacteria.svg" width="15px"/> Add `bacteria` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/bladder.svg" width="15px"/> Add `bladder` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/blood_cells.svg" width="15px"/> Add `blood_cells` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/cell_nuclei.svg" width="15px"/> Add `cell_nuclei` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/dna.svg" width="15px"/> Add `dna` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/enzyme.svg" width="15px"/> Add `enzyme` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/female_groin.svg" width="15px"/> Add `female_groin` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/female_reproductive_system.svg" width="15px"/> Add `female_reproductive_system` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/fetus.svg" width="15px"/> Add `fetus` by [@quincylvania](https://github.com/quincylvania) ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/fetus_in_circle.svg" width="15px"/> Add `fetus_in_circle` by [@quincylvania](https://github.com/quincylvania) ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/fetus_in_circle_outline.svg" width="15px"/> Add `fetus_in_circle_outline` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/foot.svg" width="15px"/> Add `foot` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/gallbladder.svg" width="15px"/> Add `gallbladder` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/human_head.svg" width="15px"/> Add `human_head` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/heart_organ.svg" width="15px"/> Add `heart_organ` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/intestine.svg" width="15px"/> Add `intestine` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/joint.svg" width="15px"/> Add `joint` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/kidneys.svg" width="15px"/> Add `kidneys` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/leg.svg" width="15px"/> Add `leg` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/leg_with_varicose_veins.svg" width="15px"/> Add `leg_with_varicose_veins` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/lungs.svg" width="15px"/> Add `lungs` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/lungs_with_right_side_spots.svg" width="15px"/> Add `lungs_with_right_side_spots` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/male_genitalia.svg" width="15px"/> Add `male_genitalia` by [@quincylvania](https://github.com/quincylvania) ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/male_genitalia_with_urethra.svg" width="15px"/> Add `male_genitalia_with_urethra` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/male_genitalia_with_testicles.svg" width="15px"/> Add `male_genitalia_with_testicles` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/male_groin.svg" width="15px"/> Add `male_groin` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/nose_outline.svg" width="15px"/> Add `nose_outline` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/pancreas.svg" width="15px"/> Add `pancreas` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/prostate.svg" width="15px"/> Add `prostate` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/spleen.svg" width="15px"/> Add `spleen` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/stomach.svg" width="15px"/> Add `stomach` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/thyroid.svg" width="15px"/> Add `thyroid` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/tissue.svg" width="15px"/> Add `tissue` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/tumor.svg" width="15px"/> Add `tumor` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/person_with_open_arms.svg" width="15px"/> Add `person_with_open_arms` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/underweight_person.svg" width="15px"/> Add `underweight_person` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/overweight_person.svg" width="15px"/> Add `overweight_person` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/pregnant_person.svg" width="15px"/> Add `pregnant_person` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/person_vomiting.svg" width="15px"/> Add `person_vomiting` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/person_with_droplets.svg" width="15px"/> Add `person_with_droplets` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/person_walking_holding_railing.svg" width="15px"/> Add `person_walking_holding_railing` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/rememberance_ribbon.svg" width="15px"/> Add `rememberance_ribbon` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/face_mask.svg" width="15px"/> Add `face_mask` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/respirator.svg" width="15px"/> Add `respirator` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/diaper.svg" width="15px"/> Add `diaper` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/quadcopter_drone.svg" width="15px"/> Add `quadcopter_drone` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/sayana_press.svg" width="15px"/> Add `sayana_press` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/sperm.svg" width="15px"/> Add `sperm` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/condom.svg" width="15px"/> Add `condom` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/condom_and_venus.svg" width="15px"/> Add `condom_and_venus` ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+- <img src="https://pinhead.ink/v15/condom_and_mars.svg" width="15px"/> Add `condom_and_mars` by [@quincylvania](https://github.com/quincylvania) ([#107](https://github.com/waysidemapping/pinhead/issues/107))
+
 ## [14.0.0] - 2026-03-08
 
 ⚠️ This major release contains new and resdesigned icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
