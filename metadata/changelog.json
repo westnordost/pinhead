@@ -8964,6 +8964,15 @@
         "inspo": "compact_box_truck"
       },
       {
+        "newId": "sub_sandwich_with_steam",
+        "by": "@quincylvania",
+        "inspo": [
+          "sub_sandwich",
+          "loaf_of_pan_bread_with_steam"
+        ],
+        "issue": "101"
+      },
+      {
         "newId": "water_tap",
         "by": "@quincylvania"
       },
