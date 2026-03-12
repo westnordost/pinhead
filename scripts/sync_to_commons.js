@@ -8,7 +8,9 @@ if (existsSync(".env")) {
 import { ChangelogReader } from '../src/ChangelogReader.js';
 
 const changelogs = JSON.parse(readFileSync('dist/changelog.json'));
-const localIconsById = new ChangelogReader(changelogs).iconsById;
+const changelogReader = new ChangelogReader(changelogs);
+const localIconsById = changelogReader.iconsById;
+const localIconsByVersionedIconId = changelogReader.iconsByVersionedIconId;
 
 const currentVersion = JSON.parse(readFileSync('package.json')).version;
 const versionParts = currentVersion.split('.');
@@ -29,8 +31,6 @@ const commonsCategory = "Category:Plain_black_Pinhead_SVG_icons";
 const externalSources = JSON.parse(readFileSync('dist/external_sources.json'));
 const completeIconsById =  JSON.parse(readFileSync('dist/icons/index.complete.json')).icons;
 const iconsToUploadById = Object.assign({}, completeIconsById);
-
-const unmatchedPages = [];
 const pagesNeedingUpdateByIconId = {};
 
 const validRemotePages = {};
@@ -43,11 +43,8 @@ await downloadCategoryPages()
 await uploadNewIconVersions()
   .catch(console.error);
 
-// don't upload new icons if one if them might be a duplicate
-if (!unmatchedPages.length) {
-  await uploadMissingIcons()
-    .catch(console.error);
-}
+await uploadMissingIcons()
+  .catch(console.error);
 
 await downloadEntityStatements()
   .catch(console.error);
@@ -139,24 +136,34 @@ async function downloadCategoryPages() {
       if (results && results.length >= 3) {
         const pinheadIconId = results[1];
         const commonsIconV = parseInt(results[2]);
-
-        const iconInfo = localIconsById[pinheadIconId];
-        if (iconInfo) {
-          const latestV = parseInt(localIconsById[pinheadIconId].v);
-          if (commonsIconV < latestV) {
-            pagesNeedingUpdateByIconId[pinheadIconId] = page;
+        const versionedIconId = `v${commonsIconV}/${pinheadIconId}`;
+        const targetId = localIconsByVersionedIconId[versionedIconId];
+        if (targetId === pinheadIconId) {
+          const iconInfo = localIconsById[pinheadIconId];
+          if (iconInfo) {
+            const latestV = parseInt(localIconsById[pinheadIconId].v);
+            if (commonsIconV < latestV) {
+              pagesNeedingUpdateByIconId[pinheadIconId] = page;
+            } else {
+              validRemotePages[page.pageid] = {
+                pinheadIconId: pinheadIconId,
+                filename: page.title.slice(5)
+              };
+            }
+            if (iconsToUploadById[pinheadIconId]) {
+              delete iconsToUploadById[pinheadIconId];
+            }
           } else {
-            validRemotePages[page.pageid] = {
-              pinheadIconId: pinheadIconId,
-              filename: page.title.slice(5)
-            };
+            console.error(`Cannot find local icon info for Commmons page ${title} with icon id ${pinheadIconId} from version ${commonsIconV}`);
           }
+        } else {
+          console.log(`Icon renamed and needs to be manually moved on Commons: ${pinheadIconId} -> ${targetId}`);
           if (iconsToUploadById[pinheadIconId]) {
             delete iconsToUploadById[pinheadIconId];
           }
-        } else {
-          unmatchedPages.push(page);
-          console.error(`Cannot find local icon info for ${title}`);
+          if (iconsToUploadById[targetId]) {
+            delete iconsToUploadById[targetId];
+          }
         }
       } else {
         console.error(`Cannot find valid {{Pinhead|}} template for ${title}`);
@@ -210,6 +217,7 @@ function commonsPageCategoriesText(pinheadIconId) {
     animals: ['Plain black SVG animal icons'],
     arrows: ['Black SVG arrow icons'],
     bicycles: ['Plain black SVG bicycle icons'],
+    body_and_medicine: ['Plain black SVG medical icons'],
     briefcases: ['Briefcase icons'],
     buildings: ['Plain black SVG building icons'],
     buses: ['Plain black SVG bus icons'],
@@ -235,6 +243,7 @@ function commonsPageCategoriesText(pinheadIconId) {
     trains: ['Plain black SVG train icons'],
     trucks: ['Plain black SVG truck icons'],
     watercraft: ['Plain black SVG watercraft icons'],
+    water_pipes: ['Plumbing icons'],
   };
 
   for (const dir in catsForDir) {
@@ -299,8 +308,9 @@ async function uploadMissingIcons() {
     for (const pinheadIconId in iconsToUploadById) {
       const filename = `${pinheadIconId} Pinhead icon.svg`;
       const text = textForNewFile(pinheadIconId);
+      console.log('Uploading file for: ' + pinheadIconId);
       const json = await uploadFile(filename, iconsToUploadById[pinheadIconId].svg, text);
-      if (json.upload?.result === 'Success') {
+      if (json.upload?.result === 'Success' && json.upload.pageid && json.upload.filename) {
         validRemotePages[json.upload.pageid] = {
           pinheadIconId: pinheadIconId,
           filename: json.upload.filename
