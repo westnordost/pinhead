@@ -9549,252 +9549,272 @@
         "by": "@quincylvania"
       },
       {
-        "newId": "us_alabama",
+        "newId": "contiguous_united_states",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_alabama_with_capital_star",
+        "newId": "contiguous_united_states_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_arizona",
+        "newId": "alabama",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_arizona_with_capital_star",
+        "newId": "alabama_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_colorado",
+        "newId": "arizona",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_colorado_with_capital_star",
+        "newId": "arizona_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_connecticut",
+        "newId": "arkansas",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_connecticut_with_capital_star",
+        "newId": "arkansas_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_delaware",
+        "newId": "colorado",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_delaware_with_capital_star",
+        "newId": "colorado_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_district_of_columbia",
+        "newId": "connecticut",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_district_of_columbia_with_capital_star",
+        "newId": "connecticut_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_idaho",
+        "newId": "delaware",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_idaho_with_capital_star",
+        "newId": "delaware_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_illinois",
+        "newId": "district_of_columbia",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_illinois_with_capital_star",
+        "newId": "district_of_columbia_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_kansas",
+        "newId": "idaho",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_kansas_with_capital_star",
+        "newId": "idaho_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_massachusetts",
+        "newId": "illinois",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_massachusetts_with_capital_star",
+        "newId": "illinois_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_mississippi",
+        "newId": "kansas",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_mississippi_with_capital_star",
+        "newId": "kansas_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_montana",
+        "newId": "massachusetts",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_montana_with_capital_star",
+        "newId": "massachusetts_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_nebraska",
+        "newId": "mississippi",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_nebraska_with_capital_star",
+        "newId": "mississippi_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_nevada",
+        "newId": "montana",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_nevada_with_capital_star",
+        "newId": "montana_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_hampsire",
+        "newId": "nebraska",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_hampsire_with_capital_star",
+        "newId": "nebraska_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_jersey",
+        "newId": "nevada",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_jersey_with_capital_star",
+        "newId": "nevada_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_mexico",
+        "newId": "new_hampsire",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_new_mexico_with_capital_star",
+        "newId": "new_hampsire_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_north_dakota",
+        "newId": "new_jersey",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_north_dakota_with_capital_star",
+        "newId": "new_jersey_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_oklahoma",
+        "newId": "new_mexico",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_oklahoma_with_capital_star",
+        "newId": "new_mexico_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_pennsylvania",
+        "newId": "north_dakota",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_pennsylvania_with_capital_star",
+        "newId": "north_dakota_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_south_dakota",
+        "newId": "oklahoma",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_south_dakota_with_capital_star",
+        "newId": "oklahoma_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_texas",
+        "newId": "pennsylvania",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_texas_with_capital_star",
+        "newId": "pennsylvania_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_utah",
+        "newId": "south_dakota",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_utah_with_capital_star",
+        "newId": "south_dakota_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_vermont",
+        "newId": "texas",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_vermont_with_capital_star",
+        "newId": "texas_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_wyoming",
+        "newId": "utah",
         "by": "@quincylvania",
         "issue": "114"
       },
       {
-        "newId": "us_wyoming_with_capital_star",
+        "newId": "utah_with_capital_star",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "vermont",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "vermont_with_capital_star",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "wyoming",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "wyoming_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       }
