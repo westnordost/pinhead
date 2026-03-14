@@ -9589,6 +9589,16 @@
         "issue": "114"
       },
       {
+        "newId": "us_delaware",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "us_delaware_with_capital_star",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
         "newId": "us_district_of_columbia",
         "by": "@quincylvania",
         "issue": "114"
@@ -9635,6 +9645,26 @@
       },
       {
         "newId": "us_massachusetts_with_capital_star",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "us_mississippi",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "us_mississippi_with_capital_star",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "us_montana",
+        "by": "@quincylvania",
+        "issue": "114"
+      },
+      {
+        "newId": "us_montana_with_capital_star",
         "by": "@quincylvania",
         "issue": "114"
       },
