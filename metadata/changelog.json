@@ -9551,6 +9551,72 @@
         "by": "@quincylvania"
       },
       {
+        "oldId": "crystal_ball_on_sphere_stand",
+        "newId": "crystal_ball_on_sphere_stand",
+        "by": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "steel_square_and_drafting_compass",
+        "by": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "typha_and_duck_in_water",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/MX_road_sign_SIT-6.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "dome_with_crescent_moon_and_star_and_planet",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/MX_road_sign_SIT-12.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "mesoamerican_pyramid",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/MX_road_sign_SIT-10.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "badminton_racket_and_shuttlecock",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/MX_road_sign_SIT-18.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "person_behind_desk",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/MX_road_sign_SIT-13.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "person_in_water_with_steam",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/MX_road_sign_SIT-14.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "person_wearing_racing_helmet_driving_racecar",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/MX_road_sign_SIT-17.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
+        "newId": "person_walking_bicycle",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/MX_road_sign_SR-43A.svg",
+        "importBy": "@ooosssay",
+        "issue": "88",
+        "pr": "116"
+      },
+      {
+        "newId": "traditional_storage_jars",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/MX_road_sign_SIT-2.svg",
+        "importBy": "@ooosssay",
+        "pr": "116"
+      },
+      {
         "newId": "madison_cross",
         "by": "@quincylvania",
         "inspo": "https://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_Madison%2C_Wisconsin_%282018%E2%80%93present%29.svg",
