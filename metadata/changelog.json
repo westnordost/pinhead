@@ -10184,6 +10184,22 @@
         "newId": "paperclip",
         "by": "@westnordost",
         "pr": "126"
+      },
+      {
+        "newId": "bee",
+        "by": "@westnordost",
+        "issue": "121",
+        "pr": "125"
+      },
+      {
+        "newId": "bee_skep",
+        "by": "@westnordost",
+        "pr": "125"
+      },
+      {
+        "newId": "honeycomb",
+        "by": "@westnordost",
+        "pr": "125"
       }
     ]
   }
