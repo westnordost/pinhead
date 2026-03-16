@@ -10189,7 +10189,8 @@
         "newId": "bee",
         "by": "@westnordost",
         "issue": "121",
-        "pr": "125"
+        "pr": "125",
+        "char": "🐝"
       },
       {
         "newId": "bee_skep",
@@ -10204,7 +10205,8 @@
       {
         "newId": "hash",
         "by": "@quincylvania",
-        "inspo": "terminal_screen_with_hash_prompt"
+        "inspo": "terminal_screen_with_hash_prompt",
+        "char": "#"
       }
     ]
   }
