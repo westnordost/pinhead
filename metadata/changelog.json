@@ -10178,6 +10178,12 @@
         "newId": "barbell",
         "by": "@westnordost",
         "pr": "124"
+      },
+      {
+        "oldId": "paperclip",
+        "newId": "paperclip",
+        "by": "@westnordost",
+        "pr": "126"
       }
     ]
   }
