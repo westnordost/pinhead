@@ -10261,6 +10261,32 @@
           "car_with_pound"
         ],
         "issue": "91"
+      },
+      {
+        "newId": "campsite_and_droplet",
+        "by": "@quincylvania",
+        "inspo": [
+          "campsite",
+          "water_tap_with_droplet"
+        ],
+        "issue": "134"
+      },
+      {
+        "newId": "tipi_campsite_and_droplet",
+        "by": "@quincylvania",
+        "inspo": [
+          "tipi_campsite",
+          "water_tap_with_droplet"
+        ],
+        "issue": "134"
+      },
+      {
+        "newId": "campsite_and_wifi",
+        "by": "@quincylvania",
+        "inspo": [
+          "campsite",
+          "wifi"
+        ]
       }
     ]
   }
