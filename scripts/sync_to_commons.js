@@ -200,7 +200,6 @@ function commonsPageSourceValue(pinheadIconId) {
 }
 
 function commonsPageCategoriesText(pinheadIconId) {
-
   const icon = localIconsById[pinheadIconId];
   let bys = (icon.by || []).concat(icon.srcBy || []);
 
@@ -247,13 +246,14 @@ function commonsPageCategoriesText(pinheadIconId) {
   };
 
   const srcdir = completeIconsById[pinheadIconId].srcdir;
-  for (const dirPrefix in catsForDir) {
-    if (srcdir.startsWith(dirPrefix)) {
-      categories = categories.concat(catsForDir[dirPrefix]);
-      break;
+  if (srcdir) {
+    for (const dirPrefix in catsForDir) {
+      if (srcdir.startsWith(dirPrefix)) {
+        categories = categories.concat(catsForDir[dirPrefix]);
+        break;
+      }
     }
   }
-  
   return categories.map(cat => `[[Category:${cat}]]\n`).join('');
 }
 
