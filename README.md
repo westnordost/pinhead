@@ -45,7 +45,7 @@ If you want to get the full set of icon files, use the `download` link on [pinhe
 - `dist/changelog.json`: a machine-readable list of icon additions, deletions, and renames between major versions
 - `dist/external_sources.json`: a detailed list of the external icons sources referenced in `changelog.json`
 
-### Using hosted
+### Hosted icons
 
 The above files are also hosted on pinhead.ink (through GitHub Pages) at the following URLs. You can point your app directly to these endpoints.
 
@@ -59,11 +59,11 @@ The above files are also hosted on pinhead.ink (through GitHub Pages) at the fol
 
 It is *not* recommended for production apps to depend directly on the GitHub repository or any of its raw files as these may change without notice.
 
-### Using in Wikimedia
+### Icons on Wikimedia Commons
 
 All Pinhead icons are [synced to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Plain_black_Pinhead_SVG_icons) for convenient integration with Wikipedia, Wikidata, the OpenStreetMap Wiki, and other such projects. These files are easy to [search](https://commons.wikimedia.org/w/index.php?search=pinhead+icon&title=Special%3AMediaSearch&go=Go&type=image&filemime=svg).
 
-### Using in Node.js
+### Node.js package
 
 Node developers can install Pinhead as usual. The npm package has no dependencies and is basically just a directory of SVG files and JSON metadata.
 
