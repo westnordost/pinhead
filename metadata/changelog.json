@@ -10583,14 +10583,13 @@
   },
   {
     "majorVersion": "18",
-    "date": "2026-03-18",
+    "date": "2026-03-19",
     "iconChanges": [
       {
         "newId": "double_diamond_tall",
         "by": "@dschep",
-        "inspo": [
-          "diamond_tall"
-        ]
+        "inspo": "diamond_tall",
+        "pr": "144"
       },
       {
         "newId": "exclamation_point",
