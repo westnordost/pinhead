@@ -10586,6 +10586,13 @@
     "date": "2026-03-18",
     "iconChanges": [
       {
+        "newId": "double_diamond_tall",
+        "by": "@dschep",
+        "inspo": [
+          "diamond_tall"
+        ]
+      },
+      {
         "newId": "exclamation_point",
         "by": "@quincylvania",
         "inspo": "triangle_up_with_exclamation_point",
