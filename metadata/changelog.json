@@ -10605,11 +10605,6 @@
           "campsite",
           "wifi"
         ]
-      },
-      {
-        "newId":"turntable"
-        "by": "@ooosssay"
-        "pr":"#143"
       }
     ]
   },
@@ -10622,6 +10617,11 @@
         "by": "@dschep",
         "inspo": "diamond_tall",
         "pr": "144"
+      },
+      {
+        "newId": "turntable",
+        "by": "@ooosssay",
+        "pr": "#143"
       },
       {
         "newId": "exclamation_point",
