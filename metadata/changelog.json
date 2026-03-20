@@ -363,6 +363,7 @@
       {
         "newId": "banknote_in_slot",
         "src": "temaki",
+        "srcBy": "@tyrasd",
         "importBy": "@quincylvania",
         "osmcarto": "amenity/atm",
         "temaki": "atm2"
@@ -537,7 +538,10 @@
       {
         "newId": "bicycle_on_parking_line",
         "src": "temaki",
-        "srcBy": "@quincylvania",
+        "srcBy": [
+          "@tyrasd",
+          "@quincylvania"
+        ],
         "importBy": "@quincylvania",
         "temaki": "bicycle_parked"
       },
@@ -550,6 +554,7 @@
       {
         "newId": "bicycle_under_shower_spray",
         "src": "temaki",
+        "srcBy": "@mcliquid",
         "importBy": "@quincylvania",
         "temaki": "bicycle_wash"
       },
@@ -798,6 +803,7 @@
       {
         "newId": "broadleaved_tree_in_water",
         "src": "temaki",
+        "srcBy": "@westnordost",
         "importBy": "@quincylvania",
         "temaki": "swamp"
       },
@@ -1718,6 +1724,7 @@
       {
         "newId": "delicate_arch",
         "src": "temaki",
+        "srcBy": "@jake-low",
         "importBy": "@quincylvania",
         "temaki": "natural_arch"
       },
@@ -2087,6 +2094,10 @@
       {
         "newId": "fence",
         "src": "temaki",
+        "srcBy": [
+          "@RudyTheDev",
+          "@bhousel"
+        ],
         "importBy": "@quincylvania",
         "temaki": "guard_rail"
       },
@@ -2579,6 +2590,7 @@
       {
         "newId": "handled_bowl_with_steam",
         "src": "temaki",
+        "srcBy": "@novolife",
         "importBy": "@quincylvania",
         "temaki": "hotpot"
       },
@@ -3319,6 +3331,10 @@
       {
         "newId": "manhole_cover_with_hydrant",
         "src": "temaki",
+        "srcBy": [
+          "@qugebert",
+          "@bhousel"
+        ],
         "importBy": "@quincylvania",
         "temaki": "fire_hydrant_underground"
       },
@@ -3791,6 +3807,7 @@
       {
         "newId": "paifang",
         "src": "temaki",
+        "srcBy": "@novolife",
         "importBy": "@quincylvania",
         "temaki": "paifang"
       },
@@ -3927,7 +3944,7 @@
       {
         "newId": "pedestrian_and_cyclist_on_crosswalk",
         "src": "temaki",
-        "srcBy": "@quincylvania",
+        "srcBy": "@hikemaniac",
         "importBy": "@quincylvania",
         "temaki": "ped_cyclist_crosswalk"
       },
@@ -4007,6 +4024,7 @@
       {
         "newId": "perfume_bottle_with_spray",
         "src": "temaki",
+        "srcBy": "@bhousel",
         "importBy": "@quincylvania",
         "osmcarto": "shop/perfumery",
         "temaki": "perfume"
@@ -4477,6 +4495,7 @@
       {
         "newId": "pickleball_paddle_with_ball",
         "src": "temaki",
+        "srcBy": "@tjasz",
         "importBy": "@quincylvania",
         "temaki": "pickleball"
       },
@@ -4659,6 +4678,7 @@
       {
         "newId": "pole_with_floodlights",
         "src": "temaki",
+        "srcBy": "@tyrasd",
         "importBy": "@quincylvania",
         "temaki": "mast_lighting"
       },
@@ -4685,6 +4705,7 @@
       {
         "newId": "portable_fence",
         "src": "temaki",
+        "srcBy": "@RudyTheDev",
         "importBy": "@quincylvania",
         "temaki": "railing"
       },
@@ -4771,6 +4792,7 @@
       {
         "newId": "pumpjack",
         "src": "temaki",
+        "srcBy": "@bhousel",
         "importBy": "@quincylvania",
         "temaki": "oil_well"
       },
@@ -4790,6 +4812,7 @@
       {
         "newId": "quay",
         "src": "temaki",
+        "srcBy": "@jdhoek",
         "importBy": "@quincylvania",
         "temaki": "quay"
       },
@@ -5202,6 +5225,7 @@
       {
         "newId": "shoe_under_shower_spray",
         "src": "temaki",
+        "srcBy": "@k-yle",
         "importBy": "@quincylvania",
         "temaki": "footwear_decontamination"
       },
@@ -5667,6 +5691,7 @@
       {
         "newId": "stone_wall",
         "src": "temaki",
+        "srcBy": "@RudyTheDev",
         "importBy": "@quincylvania",
         "temaki": "wall"
       },
@@ -5783,6 +5808,7 @@
       {
         "newId": "table_soccer_players_with_ball",
         "src": "temaki",
+        "srcBy": "@tjasz",
         "importBy": "@quincylvania",
         "temaki": "table_soccer"
       },
@@ -6153,6 +6179,7 @@
       {
         "newId": "tree_stump",
         "src": "temaki",
+        "srcBy": "@tyrasd",
         "importBy": "@quincylvania",
         "temaki": "tree_stump"
       },
