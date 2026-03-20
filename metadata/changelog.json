@@ -5409,7 +5409,10 @@
         "src": "temaki",
         "srcBy": "@quincylvania",
         "importBy": "@quincylvania",
-        "temaki": "slide"
+        "temaki": [
+          "slide",
+          "slide2"
+        ]
       },
       {
         "newId": "slot_machine",
@@ -10937,6 +10940,118 @@
         "importBy": "@quincylvania",
         "issue": "141",
         "opengemeenten": "Zoeken"
+      },
+      {
+        "newId": "droplet_from_pipes",
+        "src": "temaki",
+        "importBy": "@quincylvania",
+        "temaki": "plumber"
+      },
+      {
+        "newId": "bicycle_in_rectangle_outline",
+        "src": "temaki",
+        "srcBy": "@quincylvania",
+        "importBy": "@quincylvania",
+        "temaki": "bicycle_box"
+      },
+      {
+        "newId": "motorboat_in_parking_structure",
+        "by": "@quincylvania",
+        "inspo": [
+          "motorboat",
+          "parking_structure"
+        ]
+      },
+      {
+        "newId": "motorboat_on_parking_line",
+        "by": "@quincylvania",
+        "inspo": [
+          "motorboat",
+          "parking_line"
+        ],
+        "temaki": "boat_dry_dock"
+      },
+      {
+        "newId": "person_using_terminal_kiosk",
+        "by": "@quincylvania",
+        "inspo": "person_using_terminal_kiosk_with_dollar"
+      },
+      {
+        "newId": "person_using_terminal_kiosk_with_dollar",
+        "by": "@quincylvania",
+        "src": "temaki",
+        "importBy": "@quincylvania",
+        "temaki": "atm"
+      },
+      {
+        "newId": "activity_panel",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "activity_panel"
+      },
+      {
+        "newId": "basket_swing",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "basketswing"
+      },
+      {
+        "newId": "swing",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "swing"
+      },
+      {
+        "newId": "climbing_wall",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "climbing_wall"
+      },
+      {
+        "newId": "play_shelter",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "playhouse"
+      },
+      {
+        "newId": "person_climbing_on_climbing_frame",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "climbing_frame"
+      },
+      {
+        "newId": "person_jumping_in_puddle_with_splashes",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "splash_pad"
+      },
+      {
+        "newId": "person_jumping_on_bouncy_cushion",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "cushion"
+      },
+      {
+        "newId": "person_jumping_on_trampoline",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "trampoline"
+      },
+      {
+        "newId": "person_with_ponytail_riding_zip_line",
+        "src": "temaki",
+        "srcBy": "@marensiegel",
+        "importBy": "@quincylvania",
+        "temaki": "zip_wire"
       }
     ]
   }
