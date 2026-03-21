@@ -11074,6 +11074,26 @@
         "inspo": "bench_with_backrest",
         "issue": "148",
         "temaki": "bench"
+      },
+      {
+        "newId": "person_sitting_on_bench",
+        "by": "@quincylvania",
+        "inspo": "bench"
+      },
+      {
+        "newId": "person_sitting_on_bench_with_armrests",
+        "by": "@quincylvania",
+        "inspo": "bench_with_armrests"
+      },
+      {
+        "newId": "person_sitting_on_bench_with_backrest",
+        "by": "@quincylvania",
+        "inspo": "bench_with_backrest"
+      },
+      {
+        "newId": "person_sitting_on_bench_with_backrest_and_armrests",
+        "by": "@quincylvania",
+        "inspo": "bench_with_backrest_and_armrests"
       }
     ]
   }
