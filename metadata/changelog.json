@@ -11175,40 +11175,6 @@
         "issue": "149"
       },
       {
-        "oldId": "campsite_with_dollar",
-        "newId": "campsite_with_dollar",
-        "by": "@westnordost",
-        "pr": "146"
-      },
-      {
-        "oldId": "campsite_with_euro",
-        "newId": "campsite_with_euro",
-        "by": "@westnordost",
-        "pr": "146"
-      },
-      {
-        "newId": "campsite_with_yen_yuan",
-        "by": "@quincylvania",
-        "issue": "77"
-      },
-      {
-        "oldId": "tipi_campsite_with_dollar",
-        "newId": "tipi_campsite_with_dollar",
-        "by": "@westnordost",
-        "pr": "146"
-      },
-      {
-        "oldId": "tipi_campsite_with_euro",
-        "newId": "tipi_campsite_with_euro",
-        "by": "@westnordost",
-        "pr": "146"
-      },
-      {
-        "newId": "tipi_campsite_with_yen_yuan",
-        "by": "@quincylvania",
-        "issue": "77"
-      },
-      {
         "oldId": "dollar_swap_to_euro",
         "newId": "dollar_swap_to_euro",
         "by": "@westnordost",
@@ -11225,6 +11191,11 @@
         "newId": "yen_yuan",
         "by": "@quincylvania",
         "issue": "77"
+      },
+      {
+        "newId": "rupee",
+        "by": "@quincylvania",
+        "issue": "79"
       },
       {
         "newId": "tag_with_dollar",
@@ -11248,7 +11219,62 @@
       {
         "newId": "tag_with_yen_yuan",
         "by": "@quincylvania",
+        "inspo": "tag",
         "issue": "77"
+      },
+      {
+        "newId": "tag_with_rupee",
+        "by": "@quincylvania",
+        "inspo": "tag",
+        "issue": "79"
+      },
+      {
+        "oldId": "campsite_with_dollar",
+        "newId": "campsite_with_dollar",
+        "by": "@westnordost",
+        "pr": "146"
+      },
+      {
+        "oldId": "campsite_with_euro",
+        "newId": "campsite_with_euro",
+        "by": "@westnordost",
+        "pr": "146"
+      },
+      {
+        "newId": "campsite_with_yen_yuan",
+        "by": "@quincylvania",
+        "inspo": "campsite_with_dollar",
+        "issue": "77"
+      },
+      {
+        "newId": "campsite_with_rupee",
+        "by": "@quincylvania",
+        "inspo": "campsite_with_dollar",
+        "issue": "79"
+      },
+      {
+        "oldId": "tipi_campsite_with_dollar",
+        "newId": "tipi_campsite_with_dollar",
+        "by": "@westnordost",
+        "pr": "146"
+      },
+      {
+        "oldId": "tipi_campsite_with_euro",
+        "newId": "tipi_campsite_with_euro",
+        "by": "@westnordost",
+        "pr": "146"
+      },
+      {
+        "newId": "tipi_campsite_with_yen_yuan",
+        "by": "@quincylvania",
+        "inspo": "tipi_campsite_with_dollar",
+        "issue": "77"
+      },
+      {
+        "newId": "tipi_campsite_with_rupee",
+        "by": "@quincylvania",
+        "inspo": "tipi_campsite_with_dollar",
+        "issue": "79"
       },
       {
         "oldId": "bicycle_and_dollar",
@@ -11265,7 +11291,14 @@
       {
         "newId": "bicycle_and_yen_yuan",
         "by": "@quincylvania",
+        "inspo": "bicycle_and_dollar",
         "issue": "77"
+      },
+      {
+        "newId": "bicycle_and_rupee",
+        "by": "@quincylvania",
+        "inspo": "bicycle_and_dollar",
+        "issue": "79"
       },
       {
         "oldId": "cargobike_and_dollar",
@@ -11282,7 +11315,14 @@
       {
         "newId": "cargobike_and_yen_yuan",
         "by": "@quincylvania",
+        "inspo": "cargobike_and_dollar",
         "issue": "77"
+      },
+      {
+        "newId": "cargobike_and_rupee",
+        "by": "@quincylvania",
+        "inspo": "cargobike_and_dollar",
+        "issue": "79"
       },
       {
         "oldId": "car_with_dollar",
@@ -11299,7 +11339,14 @@
       {
         "newId": "car_with_yen_yuan",
         "by": "@quincylvania",
+        "inspo": "car_with_dollar",
         "issue": "77"
+      },
+      {
+        "newId": "car_with_rupee",
+        "by": "@quincylvania",
+        "inspo": "car_with_dollar",
+        "issue": "79"
       },
       {
         "newId": "person_using_terminal_kiosk_with_euro",
@@ -11311,6 +11358,12 @@
         "by": "@quincylvania",
         "inspo": "person_using_terminal_kiosk_with_dollar",
         "issue": "77"
+      },
+      {
+        "newId": "person_using_terminal_kiosk_with_rupee",
+        "by": "@quincylvania",
+        "inspo": "person_using_terminal_kiosk_with_dollar",
+        "issue": "79"
       },
       {
         "newId": "person_using_terminal_kiosk_with_pound",
@@ -11328,6 +11381,11 @@
         "by": "@quincylvania"
       },
       {
+        "newId": "milk_carton_and_apple_and_dollar",
+        "by": "@quincylvania",
+        "inspo": "milk_carton_and_apple_and_euro"
+      },
+      {
         "newId": "milk_carton_and_apple_and_pound",
         "by": "@quincylvania",
         "inspo": "milk_carton_and_apple_and_euro"
@@ -11339,9 +11397,10 @@
         "issue": "77"
       },
       {
-        "newId": "milk_carton_and_apple_and_dollar",
+        "newId": "milk_carton_and_apple_and_rupee",
         "by": "@quincylvania",
-        "inspo": "milk_carton_and_apple_and_euro"
+        "inspo": "milk_carton_and_apple_and_euro",
+        "issue": "79"
       },
       {
         "oldId": "noodle_bowl_and_chopsticks_with_noodles",
