@@ -147,12 +147,12 @@ export async function downloadEntityStatements(ids) {
   console.log('Downloading entity statements...');
   const maxIdsPerQuery = 50;
   let allEntities = [];
-  const idsToGet = ids.slice();
+  const idsToGet = ids.map(pageid => 'M' + pageid);
   while (idsToGet.length) {
     const batchIds = idsToGet.splice(0, maxIdsPerQuery);
     const batchInfo = await getMediaInfo(batchIds);
     if (batchInfo?.entities) {
-      allEntities = allEntities.concat(Object.keys(batchInfo.entities));
+      allEntities = allEntities.concat(Object.values(batchInfo.entities));
     } else {
       console.error('Could not get entities for: ' + batchIds);
       console.error('Continuing anyway...');
@@ -198,4 +198,68 @@ export async function uploadClaims(pageid, claims) {
     body: params
   });
   return await res.json();
+}
+
+export async function fetchWikidataEntities(ids, props = []) {
+  const apiUrl = 'https://www.wikidata.org/w/api.php';
+  const batchSize = 50;
+  const results = {};
+
+  async function fetchBatch(batchIds) {
+    const formData = new URLSearchParams();
+    formData.append('action', 'wbgetentities');
+    formData.append('ids', batchIds.join('|'));
+    formData.append('props', 'labels|aliases|claims');
+    formData.append('format', 'json');
+
+    const response = await fetch(apiUrl, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        "User-Agent": userAgent
+      }
+    });
+
+    const data = await response.json();
+    return data.entities;
+  }
+
+  for (let i = 0; i < ids.length; i += batchSize) {
+    const batch = ids.slice(i, i + batchSize);
+    const entities = await fetchBatch(batch);
+
+    for (const id in entities) {
+      const entity = entities[id];
+      const entityLabels = entity.labels || {};
+      const entityAliases = entity.aliases || {};
+      const claims = entity.claims || {};
+
+      const labels = {};
+      for (const lang in entityLabels) {
+        labels[lang] = entityLabels[lang].value;
+      }
+
+      const aliases = {};
+      for (const lang in entityAliases) {
+        aliases[lang] = entityAliases[lang].map(a => a.value);
+      }
+
+      const statements = {};
+      for (const prop of props) {
+        if (claims[prop]) {
+          statements[prop] = claims[prop].map(claim => {
+            const dv = claim.mainsnak.datavalue;
+            if (!dv) return null;
+            const value = dv.value;
+            if (value.id) return value.id;
+            return value;
+          });
+        }
+      }
+
+      results[id] = { labels, aliases, statements };
+    }
+  }
+
+  return results;
 }

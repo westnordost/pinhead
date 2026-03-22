@@ -41,7 +41,7 @@ await uploadNewIconVersions()
 await uploadMissingIcons()
   .catch(console.error);
 
-const entities = await downloadEntityStatements(Object.keys(validRemotePages).map(pageid => 'M' + pageid))
+const entities = await downloadEntityStatements(Object.keys(validRemotePages))
   .catch(console.error);
 
 for (const item of entities) {
