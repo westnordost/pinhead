@@ -42,6 +42,7 @@
     "build_dist": "node scripts/build_dist.js",
     "build_qgis_plugin": "node scripts/build_qgis_plugin.js",
     "check_icons": "node scripts/check_icons.js",
+    "fetch_wikidata_info": "node scripts/fetch_wikidata_info.js",
     "serve": "node serve.js",
     "sync_to_commons": "node scripts/sync_to_commons.js"
   },

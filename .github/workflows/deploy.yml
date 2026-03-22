@@ -42,6 +42,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build_docs
+      - name: fetch_wikidata_info
+        run: npm run fetch_wikidata_info
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
