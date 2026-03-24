@@ -66,7 +66,7 @@ async function setupPage(pageData) {
 
   document.getElementById('per-day-icon-count')
     .replaceChildren(
-      new Intl.NumberFormat(undefined, {maximumFractionDigits: 1}).format(iconsAddedPerDaySinceLaunch)
+      new Intl.NumberFormat().format(Math.round(iconsAddedPerDaySinceLaunch))
     );
 
   document.getElementById('sidebar')
