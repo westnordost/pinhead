@@ -63,15 +63,16 @@ It is *not* recommended for production apps to depend directly on the GitHub rep
 
 All Pinhead icons are [synced to Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Plain_black_Pinhead_SVG_icons) for convenient integration with Wikipedia, Wikidata, the OpenStreetMap Wiki, and other such projects. These files are easy to [search](https://commons.wikimedia.org/w/index.php?title=Special%3AMediaSearch&search=deepcat%3A%22Plain+black+Pinhead+SVG+icons%22&type=image).
 
-### Node.js package
+### Node.js packages
 
-Node developers can install Pinhead as usual. The npm package has no dependencies and is basically just a directory of SVG files and JSON metadata.
+Pinhead is distributed in two different packages for Node developers. The packages have no dependencies and contain no code.
 
-```
-npm install @waysidemapping/pinhead
-```
+- **[@waysidemapping/pinhead](https://www.npmjs.com/package/@waysidemapping/pinhead)**: SVG icons and JSON metadata files
+  - `npm install @waysidemapping/pinhead-font`
+- **[@waysidemapping/pinhead-font](https://www.npmjs.com/package/@waysidemapping/pinhead-font)**: Icon font and CSS for use on webpages
+  - `npm install @waysidemapping/pinhead-font`
 
-This package uses a special flavor of semantic versioning (`major.minor.patch`), with the Pinhead version number corresponding to the minor version. If your app expects the icons to be static, depend on the package like (`~x.x.0`). If your app can automatically handle icons changes, i.e. by reading the `changelog.json` file, then depend on the package like (`^x.x.0`). We'll only increment the major version if there is a breaking change to the package format, in which case the minor version will NOT reset to zero but will remain the Pinhead version number. Note that prior to v15, the Pinhead version number corresponded to the major package version instead of the minor.
+These packages use a special flavor of semantic versioning (`major.minor.patch`), with the Pinhead version number corresponding to the minor version. If your app expects the icons to be static, depend on the package like (`~x.x.0`). If your app can automatically handle icons changes, i.e. by reading the `changelog.json` file, then depend on the package like (`^x.x.0`). We'll only increment the major version if there is a breaking change to the package format, in which case the minor version will NOT reset to zero but will remain the Pinhead version number. Note that prior to v15, the Pinhead version number of `@waysidemapping/pinhead` corresponded to the major package version instead of the minor.
 
 ## Where the icons are from
 
