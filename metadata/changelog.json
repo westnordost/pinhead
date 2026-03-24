@@ -11530,5 +11530,19 @@
         "inspo": "wheelie_bin_and_apple_core"
       }
     ]
+  },
+  {
+    "majorVersion": "20",
+    "date": "2026-03-24",
+    "iconChanges": [
+      {
+        "newId": "africa",
+        "by": "@quincylvania"
+      },
+      {
+        "newId": "africa_and_madagascar",
+        "by": "@quincylvania"
+      }
+    ]
   }
 ]
