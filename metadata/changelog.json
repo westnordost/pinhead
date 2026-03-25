@@ -11542,6 +11542,64 @@
     "date": "2026-03-24",
     "iconChanges": [
       {
+        "newId": "person_wearing_seatbelt",
+        "by": "@ooosssay",
+        "issue": "37",
+        "pr": "161"
+      },
+      {
+        "newId": "passport_with_belgium",
+        "src": "opengemeenten",
+        "importBy": "@quincylvania",
+        "issue": "141",
+        "opengemeenten": "l10n/BE/Paspoort"
+      },
+      {
+        "newId": "passport_with_netherlands",
+        "src": "opengemeenten",
+        "importBy": "@quincylvania",
+        "issue": "141",
+        "opengemeenten": "l10n/NL/Paspoort"
+      },
+      {
+        "newId": "passport_with_bundesadler",
+        "src": "opengemeenten",
+        "importBy": "@quincylvania",
+        "issue": "141",
+        "opengemeenten": "l10n/DE/Paspoort"
+      },
+      {
+        "newId": "graticule_globe",
+        "by": "@quincylvania",
+        "char": "🌐"
+      },
+      {
+        "newId": "four_square_court",
+        "by": [
+          "@ooosssay",
+          "@quincylvania"
+        ],
+        "pr": "162"
+      },
+      {
+        "newId": "four_square_court_with_ball",
+        "by": [
+          "@ooosssay",
+          "@quincylvania"
+        ],
+        "pr": "162"
+      },
+      {
+        "newId": "circle_a",
+        "by": "@ooosssay",
+        "pr": "163"
+      },
+      {
+        "newId": "tags",
+        "by": "@quincylvania",
+        "inspo": "tag"
+      },
+      {
         "newId": "africa",
         "by": "@quincylvania"
       },
@@ -11558,49 +11616,6 @@
         "by": "@quincylvania"
       },
       {
-        "newId": "pixel_dollar",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "pixel_euro",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "pixel_pound",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "pixel_yen_yuan",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "pixel_rupee",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "pixel_ruble",
-        "by": "@quincylvania",
-        "issue": "159"
-      },
-      {
-        "newId": "person_wearing_seatbelt",
-        "by": "@ooosssay",
-        "issue": "37",
-        "pr": "161"
-      },
-      {
-        "newId": "passport_with_belgium",
-        "src": "opengemeenten",
-        "importBy": "@quincylvania",
-        "issue": "141",
-        "opengemeenten": "l10n/BE/Paspoort"
-      },
-      {
         "newId": "belgium",
         "by": "@quincylvania",
         "inspo": "passport_with_belgium"
@@ -11611,13 +11626,6 @@
         "inspo": "belgium"
       },
       {
-        "newId": "passport_with_netherlands",
-        "src": "opengemeenten",
-        "importBy": "@quincylvania",
-        "issue": "141",
-        "opengemeenten": "l10n/NL/Paspoort"
-      },
-      {
         "newId": "netherlands",
         "by": "@quincylvania",
         "inspo": "passport_with_netherlands"
@@ -11626,18 +11634,6 @@
         "newId": "netherlands_with_capital_star",
         "by": "@quincylvania",
         "inspo": "netherlands"
-      },
-      {
-        "newId": "passport_with_bundesadler",
-        "src": "opengemeenten",
-        "importBy": "@quincylvania",
-        "issue": "141",
-        "opengemeenten": "l10n/DE/Paspoort"
-      },
-      {
-        "newId": "graticule_globe",
-        "by": "@quincylvania",
-        "char": "🌐"
       },
       {
         "oldId": "shopping_bag",
@@ -11686,22 +11682,9 @@
         "inspo": "shopping_bag"
       },
       {
-        "newId": "tags",
-        "by": "@quincylvania",
-        "inspo": "tag"
-      },
-      {
         "newId": "peso",
         "by": "@quincylvania",
         "issue": "156"
-      },
-      {
-        "newId": "pixel_peso",
-        "by": "@quincylvania",
-        "issue": [
-          "156",
-          "159"
-        ]
       },
       {
         "newId": "person_using_terminal_kiosk_with_peso",
@@ -11796,23 +11779,24 @@
         "by": "@quincylvania"
       },
       {
-        "newId": "swastika",
+        "newId": "angel_moroni",
         "by": "@ooosssay",
-        "pr": "163",
-        "char": [
-          "卐",
-          "࿕"
-        ],
-        "sensitive": "hate"
+        "pr": "166"
       },
       {
-        "newId": "swastika_with_dots",
-        "by": [
-          "@ooosssay",
-          "@quincylvania"
-        ],
-        "char": "࿗",
-        "sensitive": "hate"
+        "newId": "spiral_labyrinth",
+        "by": "@quincylvania",
+        "issue": "73"
+      },
+      {
+        "newId": "circular_labyrinth",
+        "by": "@quincylvania",
+        "issue": "73"
+      },
+      {
+        "newId": "ahimsa_hand_outline",
+        "by": "@ooosssay",
+        "pr": "166"
       },
       {
         "newId": "sauvastika",
@@ -11834,35 +11818,61 @@
         "sensitive": "hate"
       },
       {
-        "newId": "four_square_court",
-        "by": [
-          "@ooosssay",
-          "@quincylvania"
-        ],
-        "pr": "162"
-      },
-      {
-        "newId": "four_square_court_with_ball",
-        "by": [
-          "@ooosssay",
-          "@quincylvania"
-        ],
-        "pr": "162"
-      },
-      {
-        "newId": "circle_a",
+        "newId": "swastika",
         "by": "@ooosssay",
-        "pr": "163"
+        "pr": "163",
+        "char": [
+          "卐",
+          "࿕"
+        ],
+        "sensitive": "hate"
       },
       {
-        "newId": "spiral_labyrinth",
-        "by": "@quincylvania",
-        "issue": "73"
+        "newId": "swastika_with_dots",
+        "by": [
+          "@ooosssay",
+          "@quincylvania"
+        ],
+        "char": "࿗",
+        "sensitive": "hate"
       },
       {
-        "newId": "circular_labyrinth",
+        "newId": "pixel_peso",
         "by": "@quincylvania",
-        "issue": "73"
+        "issue": [
+          "156",
+          "159"
+        ]
+      },
+      {
+        "newId": "pixel_dollar",
+        "by": "@quincylvania",
+        "issue": "159"
+      },
+      {
+        "newId": "pixel_euro",
+        "by": "@quincylvania",
+        "issue": "159"
+      },
+      {
+        "newId": "pixel_pound",
+        "by": "@quincylvania",
+        "issue": "159"
+      },
+      {
+        "newId": "pixel_yen_yuan",
+        "by": "@quincylvania",
+        "issue": "159"
+      },
+      {
+        "newId": "pixel_rupee",
+        "by": "@quincylvania",
+        "issue": "159"
+      },
+      {
+        "newId": "pixel_ruble",
+        "by": "@quincylvania",
+        "issue": "159"
       },
       {
         "newId": "pixel_droplet",
