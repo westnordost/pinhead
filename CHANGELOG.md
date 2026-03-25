@@ -6,6 +6,18 @@ _Pinhead v20_
 
 This release contains new and redesigned icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
 
+### Distribution changes
+
+- The QGIS plugin has been dropped in favor of a repository compatible with the QGIS Resoure Sharing plugin:
+  - https://github.com/waysidemapping/pinhead-qgis-resources
+- Pinhead is now distributed as a web font:
+  - Versioned Node package:
+    - https://www.npmjs.com/@waysidemapping/pinhead-font
+  - Hosted files per version:
+    - https://pinhead.ink/v20/pinhead.ttf
+    - https://pinhead.ink/v20/pinhead.css
+    - https://pinhead.ink/v20/font_preview.html
+
 ### Redesigned icons
 
 - <img src="https://pinhead.ink/v19/shopping_bag.svg" width="15px"/> -> <img src="https://pinhead.ink/v20/shopping_bag.svg" width="15px"/> `shopping_bag` by [@quincylvania](https://github.com/quincylvania)
