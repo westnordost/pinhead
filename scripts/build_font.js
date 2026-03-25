@@ -7,10 +7,15 @@ import svg2ttf from 'svg2ttf';
 const iconsDir = 'icons';
 const distDir = 'font';
 
+const firstFontVersion = 19;
+
 const fontName = 'pinhead';
 const classPrefix = 'pinhead';
 
 copyFileSync('LICENSE', join(distDir, `LICENSE`));
+
+const changelogs = JSON.parse(readFileSync('dist/changelog.json'))
+  .toSorted((a, b) => parseInt(a.majorVersion) - parseInt(b.majorVersion));
 
 const packageJson = JSON.parse(readFileSync('package.json'));
 const majorVersion = parseInt(packageJson.version.split('.')[1]);
@@ -60,25 +65,63 @@ async function buildFont() {
 
   fontStream.pipe(writableStream);
 
-  const files = Array.from(globSync(`${iconsDir}/**/*.svg`))
-    .toSorted((a, b) => basename(a, '.svg') < basename(b, '.svg') ? -1 : (basename(a, '.svg') > basename(b, '.svg') ? 1 : 0));
-
   let unicode = 0xe001;
+
+  const codepointsByIconId = {};
+  for (const versionChangelog of changelogs) {
+    const version = versionChangelog.majorVersion;
+    // Make sure we process all deletions/changes before additions
+    const sortedIconChanges = versionChangelog.iconChanges.toSorted((a, b) => {
+      if (b.oldId && !a.oldId) return 1;
+      if (!b.oldId && a.oldId) return -1;
+      return 0;
+    });
+    for (const iconChange of sortedIconChanges) {
+      if (iconChange.oldId) {
+        if (iconChange.newId) {
+          codepointsByIconId[iconChange.newId] = codepointsByIconId[iconChange.oldId];
+        }
+        if (iconChange.newId !== iconChange.oldId) {
+          delete codepointsByIconId[iconChange.oldId];
+        }
+      } else if (iconChange.newId) {
+        codepointsByIconId[iconChange.newId] = true;
+      }
+    }
+    if (parseInt(version) >= firstFontVersion) {
+      const itemsIdsToAssignCodepoints = [];
+      for (const iconId in codepointsByIconId) {
+        const value = codepointsByIconId[iconId];
+        if (value === true) {
+          itemsIdsToAssignCodepoints.push(iconId);
+        }
+      }
+      const sortedIds = itemsIdsToAssignCodepoints
+        .toSorted((a, b) => a < b ? -1 : (a > b ? 1 : 0));
+      for (const id of sortedIds) {
+        const codepoint = unicode++;
+        codepointsByIconId[id] = codepoint;
+      }
+    }
+  }
   const glyphs = [];
 
-  for (const file of files) {
-    const name = basename(file, '.svg');
-    const codepoint = unicode++;
+  // make sure we add icons in codepoint order
+  const codepoints = Object.values(codepointsByIconId)
+    .toSorted();
 
-    const glyph = createReadStream(file);
-    glyph.metadata = {
+  for (const codepoint of codepoints) {
+    const iconId = Object.keys(codepointsByIconId)
+      .find(iconId => codepointsByIconId[iconId] === codepoint);
+    const file = `dist/icons/${iconId}.svg`;
+    const glyphStream = createReadStream(file);
+    glyphStream.metadata = {
       unicode: [String.fromCharCode(codepoint)],
-      name,
+      name: iconId
     };
+    fontStream.write(glyphStream);
 
-    fontStream.write(glyph);
-
-    glyphs.push({ name, codepoint });
+    glyphs.push({ name: iconId, codepoint: codepoint });
   }
 
   fontStream.end();
