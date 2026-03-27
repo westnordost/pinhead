@@ -2401,7 +2401,8 @@
         "newId": "geyser_from_ground",
         "src": "nps",
         "importBy": "@quincylvania",
-        "nps": "geyser"
+        "nps": "geyser",
+        "temaki": "geyser_from_ground"
       },
       {
         "newId": "giftwrapped_box",
@@ -3641,7 +3642,8 @@
         "inspo": [
           "motorcycle",
           "car_on_parking_line"
-        ]
+        ],
+        "temaki": "motorcycle_parked"
       },
       {
         "newId": "mountain",
