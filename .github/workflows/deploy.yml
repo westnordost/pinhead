@@ -2,7 +2,7 @@ name: Build and deploy site to GitHub Pages
 
 on:
   workflow_run:
-    # Runs after successful release workflow
+    # Runs after release workflow (successful or not)
     workflows: ["Release"]
     types:
       - completed
@@ -32,6 +32,7 @@ concurrency:
 jobs:
   # Build job
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -63,4 +64,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

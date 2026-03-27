@@ -1,6 +1,6 @@
 {
   "name": "@waysidemapping/pinhead",
-  "version": "15.20.0-dev",
+  "version": "15.20.0",
   "type": "module",
   "description": "Quality public domain icons for your map pins",
   "license": "CC0-1.0",
@@ -11,7 +11,10 @@
     "public domain"
   ],
   "homepage": "https://pinhead.ink",
-  "repository": "github:waysidemapping/pinhead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waysidemapping/pinhead.git"
+  },
   "bugs": {
     "url": "https://github.com/waysidemapping/pinhead/issues"
   },

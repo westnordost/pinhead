@@ -161,6 +161,8 @@ function commonsPageCategoriesText(pinheadIconId) {
     phones: ['Plain black SVG telephone icons'],
     'pixel_style/buildings': ['One-color SVG pixel art (black)', 'Plain black SVG building icons'],
     'pixel_style/currency_symbols': ['One-color SVG pixel art (black)', 'Currency icons'],
+    'pixel_style/food': ['One-color SVG pixel art (black)', 'Plain black SVG food and drink icons'],
+    'pixel_style/vehicles': ['One-color SVG pixel art (black)', 'Plain black SVG vehicle icons'],
     pixel_style: ['One-color SVG pixel art (black)'],
     plants: ['Plain black SVG plant icons'],
     religious: ['Plain black SVG religious computer icons'],

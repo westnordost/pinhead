@@ -1,5 +1,117 @@
 # Changelog
 
+## [15.20.0] - 2026-03-25
+
+_Pinhead v20_
+
+This release contains new and redesigned icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
+
+### Distribution changes
+
+- The QGIS plugin has been dropped in favor of a repository compatible with the QGIS Resoure Sharing plugin:
+  - https://github.com/waysidemapping/pinhead-qgis-resources
+- Pinhead is now distributed as a web font:
+  - Versioned Node package:
+    - https://www.npmjs.com/@waysidemapping/pinhead-font
+  - Hosted files per version:
+    - https://pinhead.ink/v20/pinhead.ttf
+    - https://pinhead.ink/v20/pinhead.css
+    - https://pinhead.ink/v20/font_preview.html
+
+### Redesigned icons
+
+- <img src="https://pinhead.ink/v19/shopping_bag.svg" width="15px"/> -> <img src="https://pinhead.ink/v20/shopping_bag.svg" width="15px"/> `shopping_bag` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v19/latin_cross.svg" width="15px"/> -> <img src="https://pinhead.ink/v20/latin_cross.svg" width="15px"/> `latin_cross` by [@quincylvania](https://github.com/quincylvania)
+
+### Added icons
+
+- <img src="https://pinhead.ink/v20/person_wearing_seatbelt.svg" width="15px"/> Add `person_wearing_seatbelt` by [@ooosssay](https://github.com/ooosssay) ([#161](https://github.com/waysidemapping/pinhead/issues/161), [#37](https://github.com/waysidemapping/pinhead/issues/37))
+- <img src="https://pinhead.ink/v20/passport_with_belgium.svg" width="15px"/> Add `passport_with_belgium` from [OpenGemeenten](https://github.com/OpenGemeenten/Iconenset) imported by [@quincylvania](https://github.com/quincylvania) ([#141](https://github.com/waysidemapping/pinhead/issues/141))
+- <img src="https://pinhead.ink/v20/passport_with_netherlands.svg" width="15px"/> Add `passport_with_netherlands` from [OpenGemeenten](https://github.com/OpenGemeenten/Iconenset) imported by [@quincylvania](https://github.com/quincylvania) ([#141](https://github.com/waysidemapping/pinhead/issues/141))
+- <img src="https://pinhead.ink/v20/passport_with_bundesadler.svg" width="15px"/> Add `passport_with_bundesadler` from [OpenGemeenten](https://github.com/OpenGemeenten/Iconenset) imported by [@quincylvania](https://github.com/quincylvania) ([#141](https://github.com/waysidemapping/pinhead/issues/141))
+- <img src="https://pinhead.ink/v20/graticule_globe.svg" width="15px"/> Add `graticule_globe` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/four_square_court.svg" width="15px"/> Add `four_square_court` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#162](https://github.com/waysidemapping/pinhead/issues/162))
+- <img src="https://pinhead.ink/v20/four_square_court_with_ball.svg" width="15px"/> Add `four_square_court_with_ball` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#162](https://github.com/waysidemapping/pinhead/issues/162))
+- <img src="https://pinhead.ink/v20/circle_a.svg" width="15px"/> Add `circle_a` by [@ooosssay](https://github.com/ooosssay) ([#163](https://github.com/waysidemapping/pinhead/issues/163))
+- <img src="https://pinhead.ink/v20/tags.svg" width="15px"/> Add `tags` by [@quincylvania](https://github.com/quincylvania)
+
+Add boundary icons:
+
+- <img src="https://pinhead.ink/v20/africa.svg" width="15px"/> Add `africa` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/africa_and_madagascar.svg" width="15px"/> Add `africa_and_madagascar` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/madagascar.svg" width="15px"/> Add `madagascar` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/madagascar_with_capital_star.svg" width="15px"/> Add `madagascar_with_capital_star` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/belgium.svg" width="15px"/> Add `belgium` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/belgium_with_capital_star.svg" width="15px"/> Add `belgium_with_capital_star` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/netherlands.svg" width="15px"/> Add `netherlands` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/netherlands_with_capital_star.svg" width="15px"/> Add `netherlands_with_capital_star` by [@quincylvania](https://github.com/quincylvania)
+
+Add shopping bag icons:
+
+- <img src="https://pinhead.ink/v20/shopping_bag_with_dollar.svg" width="15px"/> Add `shopping_bag_with_dollar` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_arrows_recirculating.svg" width="15px"/> Add `shopping_bag_with_arrows_recirculating` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_euro.svg" width="15px"/> Add `shopping_bag_with_euro` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_pound.svg" width="15px"/> Add `shopping_bag_with_pound` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_yen_yuan.svg" width="15px"/> Add `shopping_bag_with_yen_yuan` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_rupee.svg" width="15px"/> Add `shopping_bag_with_rupee` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/shopping_bag_with_ruble.svg" width="15px"/> Add `shopping_bag_with_ruble` by [@quincylvania](https://github.com/quincylvania)
+
+Add Philippine peso icons:
+
+- <img src="https://pinhead.ink/v20/peso.svg" width="15px"/> Add `peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/person_using_terminal_kiosk_with_peso.svg" width="15px"/> Add `person_using_terminal_kiosk_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/milk_carton_and_apple_and_peso.svg" width="15px"/> Add `milk_carton_and_apple_and_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/shopping_bag_with_peso.svg" width="15px"/> Add `shopping_bag_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/car_with_peso.svg" width="15px"/> Add `car_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/cargobike_and_peso.svg" width="15px"/> Add `cargobike_and_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/bicycle_and_peso.svg" width="15px"/> Add `bicycle_and_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/tag_with_peso.svg" width="15px"/> Add `tag_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/campsite_with_peso.svg" width="15px"/> Add `campsite_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+- <img src="https://pinhead.ink/v20/tipi_campsite_with_peso.svg" width="15px"/> Add `tipi_campsite_with_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156))
+
+Add religious icons:
+
+- <img src="https://pinhead.ink/v20/star_of_david_with_dot.svg" width="15px"/> Add `star_of_david_with_dot` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/nordic_cross.svg" width="15px"/> Add `nordic_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/petrine_cross.svg" width="15px"/> Add `petrine_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/saint_georges_cross.svg" width="15px"/> Add `saint_georges_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/patriarchal_cross.svg" width="15px"/> Add `patriarchal_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/papal_cross.svg" width="15px"/> Add `papal_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/russian_orthodox_cross.svg" width="15px"/> Add `russian_orthodox_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/russian_cross.svg" width="15px"/> Add `russian_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/celtic_cross.svg" width="15px"/> Add `celtic_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/greek_orthodox_cross.svg" width="15px"/> Add `greek_orthodox_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/angel_moroni.svg" width="15px"/> Add `angel_moroni` by [@ooosssay](https://github.com/ooosssay) ([#166](https://github.com/waysidemapping/pinhead/issues/166))
+- <img src="https://pinhead.ink/v20/spiral_labyrinth.svg" width="15px"/> Add `spiral_labyrinth` by [@quincylvania](https://github.com/quincylvania) ([#73](https://github.com/waysidemapping/pinhead/issues/73))
+- <img src="https://pinhead.ink/v20/circular_labyrinth.svg" width="15px"/> Add `circular_labyrinth` by [@quincylvania](https://github.com/quincylvania) ([#73](https://github.com/waysidemapping/pinhead/issues/73))
+- <img src="https://pinhead.ink/v20/ahimsa_hand_outline.svg" width="15px"/> Add `ahimsa_hand_outline` by [@ooosssay](https://github.com/ooosssay) ([#166](https://github.com/waysidemapping/pinhead/issues/166))
+- <img src="https://pinhead.ink/v20/sauvastika.svg" width="15px"/> Add `sauvastika` by [@ooosssay](https://github.com/ooosssay) ([#163](https://github.com/waysidemapping/pinhead/issues/163))
+- <img src="https://pinhead.ink/v20/sauvastika_with_dots.svg" width="15px"/> Add `sauvastika_with_dots` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/swastika.svg" width="15px"/> Add `swastika` by [@ooosssay](https://github.com/ooosssay) ([#163](https://github.com/waysidemapping/pinhead/issues/163))
+- <img src="https://pinhead.ink/v20/swastika_with_dots.svg" width="15px"/> Add `swastika_with_dots` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania)
+
+Add pixel icons:
+
+- <img src="https://pinhead.ink/v20/pixel_peso.svg" width="15px"/> Add `pixel_peso` by [@quincylvania](https://github.com/quincylvania) ([#156](https://github.com/waysidemapping/pinhead/issues/156), [#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_dollar.svg" width="15px"/> Add `pixel_dollar` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_euro.svg" width="15px"/> Add `pixel_euro` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_pound.svg" width="15px"/> Add `pixel_pound` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_yen_yuan.svg" width="15px"/> Add `pixel_yen_yuan` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_rupee.svg" width="15px"/> Add `pixel_rupee` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_ruble.svg" width="15px"/> Add `pixel_ruble` by [@quincylvania](https://github.com/quincylvania) ([#159](https://github.com/waysidemapping/pinhead/issues/159))
+- <img src="https://pinhead.ink/v20/pixel_droplet.svg" width="15px"/> Add `pixel_droplet` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_droplet_with_shine.svg" width="15px"/> Add `pixel_droplet_with_shine` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_envelope.svg" width="15px"/> Add `pixel_envelope` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_burger_on_bun.svg" width="15px"/> Add `pixel_burger_on_bun` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_burger_with_cheese_on_bun.svg" width="15px"/> Add `pixel_burger_with_cheese_on_bun` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_burger_on_bun_with_seeds.svg" width="15px"/> Add `pixel_burger_on_bun_with_seeds` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_burger_with_cheese_on_bun_with_seeds.svg" width="15px"/> Add `pixel_burger_with_cheese_on_bun_with_seeds` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_bicycle.svg" width="15px"/> Add `pixel_bicycle` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_car.svg" width="15px"/> Add `pixel_car` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_taxi.svg" width="15px"/> Add `pixel_taxi` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_bus.svg" width="15px"/> Add `pixel_bus` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/pixel_transit_vehicle_on_railway_track.svg" width="15px"/> Add `pixel_transit_vehicle_on_railway_track` by [@quincylvania](https://github.com/quincylvania)
+
 ## [15.19.0] - 2026-03-22
 
 _Pinhead v19_
