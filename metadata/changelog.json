@@ -12180,6 +12180,10 @@
         "newId": "vending_machine_with_venus",
         "by": "@quincylvania",
         "temaki": "vending_venus"
+      },
+      {
+        "oldId": "greek_orthodox_cross",
+        "newId": "budded_latin_cross"
       }
     ]
   }
