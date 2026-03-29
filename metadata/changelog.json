@@ -11938,6 +11938,11 @@
     "date": "2026-03-29",
     "iconChanges": [
       {
+        "newId": "taco",
+        "by": "@ooosssay",
+        "pr": "178"
+      },
+      {
         "newId": "drink_can",
         "by": "@quincylvania"
       },
