@@ -1,5 +1,74 @@
 # Changelog
 
+## [15.21.0] - 2026-03-29
+
+_Pinhead v21_
+
+This release contains new, renamed, and redesigned icons that may affect your setup. A machine-readable version of this changelog can be found in the [`changelog.json`](/metadata/changelog.json) file.
+
+### Renamed and redesigned icons
+
+- <img src="https://pinhead.ink/v20/vending_machine.svg" width="15px"/> `vending_machine` -> <img src="https://pinhead.ink/v21/vending_machine_with_shelves.svg" width="15px"/> `vending_machine_with_shelves` by [@quincylvania](https://github.com/quincylvania)
+
+### Renamed icons
+
+- <img src="https://pinhead.ink/v21/budded_latin_cross.svg" width="15px"/> `greek_orthodox_cross` -> `budded_latin_cross`
+
+### Redesigned icons
+
+- <img src="https://pinhead.ink/v20/typha_and_duck_in_water.svg" width="15px"/> -> <img src="https://pinhead.ink/v21/typha_and_duck_in_water.svg" width="15px"/> `typha_and_duck_in_water` by [@ooosssay](https://github.com/ooosssay) ([#168](https://github.com/waysidemapping/pinhead/issues/168))
+- <img src="https://pinhead.ink/v20/book.svg" width="15px"/> -> <img src="https://pinhead.ink/v21/book.svg" width="15px"/> `book` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v20/meat.svg" width="15px"/> -> <img src="https://pinhead.ink/v21/meat.svg" width="15px"/> `meat` from [Osmic](https://github.com/gmgeo/osmic) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+
+### Added icons
+
+- <img src="https://pinhead.ink/v21/taco.svg" width="15px"/> Add `taco` by [@ooosssay](https://github.com/ooosssay) ([#178](https://github.com/waysidemapping/pinhead/issues/178))
+- <img src="https://pinhead.ink/v21/pretzel_with_salt.svg" width="15px"/> Add `pretzel_with_salt` from [source](https://raw.githubusercontent.com/twain47/Open-SVG-Map-Icons/refs/heads/master/svg/shopping/bakery.svg) imported by [@ooosssay](https://github.com/ooosssay) ([#179](https://github.com/waysidemapping/pinhead/issues/179), [#21](https://github.com/waysidemapping/pinhead/issues/21))
+- <img src="https://pinhead.ink/v21/oak_leaf.svg" width="15px"/> Add `oak_leaf` by [@ooosssay](https://github.com/ooosssay) ([#179](https://github.com/waysidemapping/pinhead/issues/179), [#22](https://github.com/waysidemapping/pinhead/issues/22))
+- <img src="https://pinhead.ink/v21/chopsticks.svg" width="15px"/> Add `chopsticks` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#174](https://github.com/waysidemapping/pinhead/issues/174))
+- <img src="https://pinhead.ink/v21/chopsticks_crossed.svg" width="15px"/> Add `chopsticks_crossed` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/spoon_and_chopsticks.svg" width="15px"/> Add `spoon_and_chopsticks` by [@ooosssay](https://github.com/ooosssay) ([#174](https://github.com/waysidemapping/pinhead/issues/174))
+- <img src="https://pinhead.ink/v21/spoon_and_fork.svg" width="15px"/> Add `spoon_and_fork` by [@ooosssay](https://github.com/ooosssay) ([#174](https://github.com/waysidemapping/pinhead/issues/174))
+- <img src="https://pinhead.ink/v21/fork_and_spoon.svg" width="15px"/> Add `fork_and_spoon` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/drink_can.svg" width="15px"/> Add `drink_can` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/whistle.svg" width="15px"/> Add `whistle` by [@ooosssay](https://github.com/ooosssay) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/pawprint_and_whistle.svg" width="15px"/> Add `pawprint_and_whistle` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/dog_sitting_wearing_collar_and_whistle.svg" width="15px"/> Add `dog_sitting_wearing_collar_and_whistle` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/dog_sitting_wearing_harness_and_whistle.svg" width="15px"/> Add `dog_sitting_wearing_harness_and_whistle` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/dog_sitting_wearing_collar_and_heart.svg" width="15px"/> Add `dog_sitting_wearing_collar_and_heart` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/pawprints_and_heart.svg" width="15px"/> Add `pawprints_and_heart` by [@ooosssay](https://github.com/ooosssay) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/shopping_bag_with_pawprint.svg" width="15px"/> Add `shopping_bag_with_pawprint` by [@ooosssay](https://github.com/ooosssay) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/cup_and_saucer_and_pawprint.svg" width="15px"/> Add `cup_and_saucer_and_pawprint` by [@ooosssay](https://github.com/ooosssay) ([#170](https://github.com/waysidemapping/pinhead/issues/170))
+- <img src="https://pinhead.ink/v21/duck_in_water.svg" width="15px"/> Add `duck_in_water` by [@ooosssay](https://github.com/ooosssay) ([#168](https://github.com/waysidemapping/pinhead/issues/168))
+- <img src="https://pinhead.ink/v21/duck.svg" width="15px"/> Add `duck` by [@ooosssay](https://github.com/ooosssay) ([#168](https://github.com/waysidemapping/pinhead/issues/168))
+- <img src="https://pinhead.ink/v21/typha_in_water.svg" width="15px"/> Add `typha_in_water` by [@ooosssay](https://github.com/ooosssay) ([#168](https://github.com/waysidemapping/pinhead/issues/168))
+- <img src="https://pinhead.ink/v21/anime_eye_and_eyebrow.svg" width="15px"/> Add `anime_eye_and_eyebrow` by [@ooosssay](https://github.com/ooosssay) ([#171](https://github.com/waysidemapping/pinhead/issues/171))
+- <img src="https://pinhead.ink/v21/shopping_bag_with_anime_eye_and_eyebrow.svg" width="15px"/> Add `shopping_bag_with_anime_eye_and_eyebrow` by [@ooosssay](https://github.com/ooosssay) ([#171](https://github.com/waysidemapping/pinhead/issues/171))
+- <img src="https://pinhead.ink/v21/ichthys.svg" width="15px"/> Add `ichthys` by [@quincylvania](https://github.com/quincylvania) ([#177](https://github.com/waysidemapping/pinhead/issues/177))
+- <img src="https://pinhead.ink/v21/book_with_bookmark.svg" width="15px"/> Add `book_with_bookmark` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/book_with_bookmark_in_slot.svg" width="15px"/> Add `book_with_bookmark_in_slot` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#172](https://github.com/waysidemapping/pinhead/issues/172))
+- <img src="https://pinhead.ink/v21/arrow_down_from_book_with_bookmark_in_slot.svg" width="15px"/> Add `arrow_down_from_book_with_bookmark_in_slot` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#172](https://github.com/waysidemapping/pinhead/issues/172))
+- <img src="https://pinhead.ink/v21/arrow_up_to_book_with_bookmark_in_slot.svg" width="15px"/> Add `arrow_up_to_book_with_bookmark_in_slot` by [@ooosssay](https://github.com/ooosssay), [@quincylvania](https://github.com/quincylvania) ([#172](https://github.com/waysidemapping/pinhead/issues/172))
+- <img src="https://pinhead.ink/v21/pen_nib.svg" width="15px"/> Add `pen_nib` from [Osmic](https://github.com/gmgeo/osmic) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/oval_broadleaved_tree.svg" width="15px"/> Add `oval_broadleaved_tree` from [Osmic](https://github.com/gmgeo/osmic) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/conifer_tree_and_oval_broadleaved_tree.svg" width="15px"/> Add `conifer_tree_and_oval_broadleaved_tree` from [Osmic](https://github.com/gmgeo/osmic) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/three_books_stacked.svg" width="15px"/> Add `three_books_stacked` from [Osmic](https://github.com/gmgeo/osmic) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/shaker_pint_glass.svg" width="15px"/> Add `shaker_pint_glass` from [OSM Carto](https://github.com/openstreetmap-carto/openstreetmap-carto) imported by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/transit_vehicle_on_railway_track_in_tunnel.svg" width="15px"/> Add `transit_vehicle_on_railway_track_in_tunnel` by [@quincylvania](https://github.com/quincylvania) ([#40](https://github.com/waysidemapping/pinhead/issues/40))
+- <img src="https://pinhead.ink/v21/vending_machine.svg" width="15px"/> Add `vending_machine` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_baguette.svg" width="15px"/> Add `vending_machine_with_baguette` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_egg.svg" width="15px"/> Add `vending_machine_with_egg` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_cigarette_with_smoke_curl.svg" width="15px"/> Add `vending_machine_with_cigarette_with_smoke_curl` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_drink_can.svg" width="15px"/> Add `vending_machine_with_drink_can` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_drink_cup_with_steam.svg" width="15px"/> Add `vending_machine_with_drink_cup_with_steam` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_ice_cream_on_cone.svg" width="15px"/> Add `vending_machine_with_ice_cream_on_cone` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_heart.svg" width="15px"/> Add `vending_machine_with_heart` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_greek_cross.svg" width="15px"/> Add `vending_machine_with_greek_cross` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_postage_stamp.svg" width="15px"/> Add `vending_machine_with_postage_stamp` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_ticket.svg" width="15px"/> Add `vending_machine_with_ticket` by [@quincylvania](https://github.com/quincylvania)
+- <img src="https://pinhead.ink/v21/vending_machine_with_venus.svg" width="15px"/> Add `vending_machine_with_venus` by [@quincylvania](https://github.com/quincylvania)
+
+
 ## [15.20.0] - 2026-03-25
 
 _Pinhead v20_
