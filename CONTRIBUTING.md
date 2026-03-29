@@ -41,6 +41,7 @@ If the following sections seem too technical or intimidating, feel free to just 
   * People, animals, vehicles, etc. depicted in profile should be facing to the right.
     * Except when moving backwards (e.g. boats on slipways).
     * Except when standing in opposition to movement (e.g. the "stop arm" checkpoint officers).
+    * Except when characteristically shown facing left (e.g. ichthys)
   * Hand tools should be pointed to the right.
   * Icons with major and minor elements positioned side-by-side should have the major element on the left and minor element on the right.
   * Multiple icons for different orientations generally isn't useful. Users can manually rotate or flip icons if desired.
